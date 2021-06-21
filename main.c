@@ -98,53 +98,120 @@ float pVHeadRoom;
 uint8_t ADE_acal = 0;
 bool checkADE = false;
 int main(void)
-{
+{		
     bsp_board_init(BSP_INIT_LEDS);
 
     APP_ERROR_CHECK(NRF_LOG_INIT(NULL));
     NRF_LOG_DEFAULT_BACKENDS_INIT();
+	
+		NRF_LOG_INFO("Template example started.");
+	
+		pRMSRegs.targetAICC = calculate_target_aicc(RSHUNT, PGAGAIN);
+    NRF_LOG_INFO("targetAICC: " NRF_LOG_FLOAT_MARKER, NRF_LOG_FLOAT(pRMSRegs.targetAICC));
+    pRMSRegs.targetAVCC = calculate_target_avcc(RBIG, RSMALL, &pVHeadRoom);
+    NRF_LOG_INFO("targetAVCC: " NRF_LOG_FLOAT_MARKER, NRF_LOG_FLOAT(pRMSRegs.targetAVCC));
+    pPowRegs.targetPowCC = calculate_target_powCC(pRMSRegs.targetAICC, pRMSRegs.targetAVCC);
+    NRF_LOG_INFO("targetPowCC: " NRF_LOG_FLOAT_MARKER, NRF_LOG_FLOAT(pPowRegs.targetPowCC));
 
-		ADE9153_reset(reset_pin);
+    NRF_LOG_FLUSH();
 	
 		init_spiADE9153();
+	
+		uint32_t vPrt = spi_read32(REG_VERSION_PRODUCT);
+    NRF_LOG_INFO("VERSION PRODUCT: %x", vPrt);
+		
+//		ADE9153_reset(reset_pin);
+	
+		
 	
 		ADE9153_initCFG();
 	
 		spi_write32((REG_AIGAIN), -268435456);
-	
-//    nrf_drv_spi_config_t spi_config = NRF_DRV_SPI_DEFAULT_CONFIG;
-//    spi_config.ss_pin   = SPI_SS_PIN;
-//    spi_config.miso_pin = SPI_MISO_PIN;
-//    spi_config.mosi_pin = SPI_MOSI_PIN;
-//    spi_config.sck_pin  = SPI_SCK_PIN;
-//    APP_ERROR_CHECK(nrf_drv_spi_init(&spi, &spi_config, spi_event_handler, NULL));
 
-//    NRF_LOG_INFO("SPI example started.");
 
-    while (1)
+    /* Autocalibration ADE9153 */
+    ADE_acal = 10; // 500ms/times
+    NRF_LOG_INFO("Autocalibration AI \n");
+    checkADE = ADE9153_acal_AINormal();
+    while (ADE_acal && !checkADE)
     {
-			uint32_t a = spi_read32(REG_AIGAIN);
-			NRF_LOG_INFO("%x",a);
-			
-			nrf_delay_ms(2000);
-			
-			
-        // Reset rx buffer and transfer done flag
-//        memset(m_rx_buf, 0, m_length);
-//        spi_xfer_done = false;
-
-//				
-//        APP_ERROR_CHECK(nrf_drv_spi_transfer(&spi, m_tx_buf, m_length, m_rx_buf, m_length));
-
-//        while (!spi_xfer_done)
-//        {
-//            __WFE();
-//        }
-
-//        NRF_LOG_FLUSH();
-
-//        NRF_LOG_FLUSH(); //processing all log entries from the buffer
-
-//        nrf_delay_ms(2000);
+        checkADE = ADE9153_acal_AINormal();
+        if (!checkADE)
+        {
+            ADE_acal--;
+            nrf_delay_ms(500);
+            NRF_LOG_INFO("AutoCalb_AI: nADE_acal %d\n", ADE_acal);
+        }
+        else
+        {
+            NRF_LOG_INFO("checkADE_ok - nADE_acal: %d\n", ADE_acal);
+        }
     }
+    if (!checkADE)
+    {
+        NRF_LOG_INFO("checkADE_false\n");
+    }
+    else
+    {
+        nrf_delay_ms(20 * 1000);
+        NRF_LOG_INFO("Autocalibration stop AI\n");
+        ADE9153_acal_stop();
+    }
+    NRF_LOG_FLUSH();
+
+    ADE_acal = 10; // 500ms/times
+    NRF_LOG_INFO("Autocalibration AV\n");
+    checkADE = ADE9153_acal_AV();
+    while (ADE_acal && !checkADE)
+    {
+        checkADE = ADE9153_acal_AV();
+        if (!checkADE)
+        {
+            ADE_acal--;
+            nrf_delay_ms(500);
+        }
+        else
+        {
+            NRF_LOG_INFO("checkADE_ok - nADE_acal: %d\n", ADE_acal);
+        }
+    }
+    if (!checkADE)
+    {
+        NRF_LOG_INFO("checkADE_false");
+    }
+    else
+    {
+        nrf_delay_ms(40 * 1000);
+        NRF_LOG_INFO("Autocalibration stop AV");
+        ADE9153_acal_stop();
+    }
+    nrf_delay_ms(500);
+    NRF_LOG_FLUSH();
+
+    /* Read mSure autocalibration */
+    ADE9153_acal_result(&pACALRegs);
+
+    /* Config AIGAIN & AVGAIN */
+    ADE9153_AIGainCFG(pRMSRegs.targetAICC, pACALRegs.mSureAICCValue);
+    ADE9153_AVGainCFG(pRMSRegs.targetAVCC, pACALRegs.mSureAVCCValue);
+
+    NRF_LOG_FLUSH();
+    nrf_delay_ms(500);
+		
+		uint32_t a = spi_read32(REG_AIGAIN);
+		NRF_LOG_INFO("%x",a);
+			
+		
+    // Enter main loop.
+    
+        //        idle_state_handle();
+    
+//    while (1)
+//    {
+//			uint32_t a = spi_read32(REG_AIGAIN);
+//			NRF_LOG_INFO("%x",a);
+//			
+//			nrf_delay_ms(2000);
+//			
+//    }
 }
