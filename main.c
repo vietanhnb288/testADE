@@ -117,12 +117,10 @@ int main(void)
 	
 		init_spiADE9153();
 	
+    ADE9153_reset(reset_pin);
+	
 		uint32_t vPrt = spi_read32(REG_VERSION_PRODUCT);
     NRF_LOG_INFO("VERSION PRODUCT: %x", vPrt);
-		
-//		ADE9153_reset(reset_pin);
-	
-		
 	
 		ADE9153_initCFG();
 	
