@@ -114,10 +114,12 @@ int main(void)
     NRF_LOG_INFO("targetPowCC: " NRF_LOG_FLOAT_MARKER, NRF_LOG_FLOAT(pPowRegs.targetPowCC));
 
     NRF_LOG_FLUSH();
+		
+		ADE9153_reset(reset_pin);
 	
 		init_spiADE9153();
 	
-    ADE9153_reset(reset_pin);
+  
 	
 		uint32_t vPrt = spi_read32(REG_VERSION_PRODUCT);
     NRF_LOG_INFO("VERSION PRODUCT: %x", vPrt);

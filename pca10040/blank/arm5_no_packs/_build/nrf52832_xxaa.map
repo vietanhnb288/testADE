@@ -14,8 +14,8 @@ Section Cross References
     main.o(i.main) refers to nrf5_ade9153a.o(i.calculate_target_avcc) for calculate_target_avcc
     main.o(i.main) refers to nrf5_ade9153a.o(i.calculate_target_powCC) for calculate_target_powCC
     main.o(i.main) refers to nrf_log_frontend.o(i.nrf_log_frontend_dequeue) for nrf_log_frontend_dequeue
-    main.o(i.main) refers to nrf5_ade9153a.o(i.init_spiADE9153) for init_spiADE9153
     main.o(i.main) refers to nrf5_ade9153a.o(i.ADE9153_reset) for ADE9153_reset
+    main.o(i.main) refers to nrf5_ade9153a.o(i.init_spiADE9153) for init_spiADE9153
     main.o(i.main) refers to nrf5_ade9153a.o(i.spi_read32) for spi_read32
     main.o(i.main) refers to nrf_log_frontend.o(i.nrf_log_frontend_std_1) for nrf_log_frontend_std_1
     main.o(i.main) refers to nrf5_ade9153a.o(i.ADE9153_initCFG) for ADE9153_initCFG
