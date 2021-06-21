@@ -190,6 +190,9 @@ int main(void)
 
     /* Read mSure autocalibration */
     ADE9153_acal_result(&pACALRegs);
+		
+//		uint32_t a = spi_read32(REG_AIGAIN);
+//		NRF_LOG_INFO("%x",a);
 
     /* Config AIGAIN & AVGAIN */
     ADE9153_AIGainCFG(pRMSRegs.targetAICC, pACALRegs.mSureAICCValue);
@@ -198,8 +201,22 @@ int main(void)
     NRF_LOG_FLUSH();
     nrf_delay_ms(500);
 		
-		uint32_t a = spi_read32(REG_AIGAIN);
-		NRF_LOG_INFO("%x",a);
+		ADE9153_read_RMSRegs(&pRMSRegs);
+    ADE9153_read_PowRegs(&pPowRegs);
+    ADE9153_read_PQRegs(&pPQRegs);
+						NRF_LOG_INFO("RMSRegs:");
+            NRF_LOG_INFO("AIReg: %x and AIValue: " NRF_LOG_FLOAT_MARKER, pRMSRegs.AIReg, NRF_LOG_FLOAT(pRMSRegs.AIValue));
+            NRF_LOG_INFO("AVReg: %x and AVValue: " NRF_LOG_FLOAT_MARKER, pRMSRegs.AVReg, NRF_LOG_FLOAT(pRMSRegs.AVValue));
+            NRF_LOG_INFO("PowRegs:");
+            NRF_LOG_INFO("activeReg: %x and activeValue: " NRF_LOG_FLOAT_MARKER, pPowRegs.activeReg, NRF_LOG_FLOAT(pPowRegs.activeValue));
+            NRF_LOG_INFO("reactiveReg: %x and reactiveValue: " NRF_LOG_FLOAT_MARKER, pPowRegs.reactiveReg, NRF_LOG_FLOAT(pPowRegs.reactiveValue));
+            NRF_LOG_INFO("apparentReg: %x and apparentValue: " NRF_LOG_FLOAT_MARKER, pPowRegs.apparentReg, NRF_LOG_FLOAT(pPowRegs.apparentValue));
+            NRF_LOG_INFO("PF compute: " NRF_LOG_FLOAT_MARKER, NRF_LOG_FLOAT(pPowRegs.activeValue / pPowRegs.apparentValue));
+            NRF_LOG_INFO("PQRegs:");
+            NRF_LOG_INFO("pwFactorReg: %x and pwFactorValue: " NRF_LOG_FLOAT_MARKER, pPQRegs.pwFactorReg, NRF_LOG_FLOAT(pPQRegs.pwFactorValue));
+            NRF_LOG_INFO("periodReg: %x and freqValue: " NRF_LOG_FLOAT_MARKER, pPQRegs.periodReg, NRF_LOG_FLOAT(pPQRegs.freqValue));
+            NRF_LOG_INFO("angleAV_AIReg: %x and angleAV_AIValue: " NRF_LOG_FLOAT_MARKER "\n", pPQRegs.angleAV_AIReg, NRF_LOG_FLOAT(pPQRegs.angleAV_AIValue));
+
 			
 		
     // Enter main loop.
