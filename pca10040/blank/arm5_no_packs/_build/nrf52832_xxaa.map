@@ -1620,238 +1620,238 @@ Image Symbol Table
     i.log_skip                               0x000016e8   Section        0  nrf_log_frontend.o(i.log_skip)
     log_skip                                 0x000016e9   Thumb Code   150  nrf_log_frontend.o(i.log_skip)
     i.main                                   0x0000178c   Section        0  main.o(i.main)
-    i.memobj_op                              0x000020a8   Section        0  nrf_memobj.o(i.memobj_op)
-    memobj_op                                0x000020a9   Thumb Code   126  nrf_memobj.o(i.memobj_op)
-    i.module_idx_get                         0x00002128   Section        0  nrf_log_frontend.o(i.module_idx_get)
-    module_idx_get                           0x00002129   Thumb Code    42  nrf_log_frontend.o(i.module_idx_get)
-    i.nrf_atomic_flag_clear_fetch            0x00002158   Section        0  nrf_atomic.o(i.nrf_atomic_flag_clear_fetch)
-    i.nrf_atomic_flag_set                    0x0000215e   Section        0  nrf_atomic.o(i.nrf_atomic_flag_set)
-    i.nrf_atomic_u32_add                     0x00002164   Section        0  nrf_atomic.o(i.nrf_atomic_u32_add)
-    i.nrf_atomic_u32_fetch_and               0x00002170   Section        0  nrf_atomic.o(i.nrf_atomic_u32_fetch_and)
-    i.nrf_atomic_u32_fetch_store             0x0000217a   Section        0  nrf_atomic.o(i.nrf_atomic_u32_fetch_store)
-    i.nrf_atomic_u32_or                      0x00002184   Section        0  nrf_atomic.o(i.nrf_atomic_u32_or)
-    i.nrf_atomic_u32_sub                     0x00002190   Section        0  nrf_atomic.o(i.nrf_atomic_u32_sub)
-    i.nrf_balloc_alloc                       0x0000219c   Section        0  nrf_balloc.o(i.nrf_balloc_alloc)
-    i.nrf_balloc_free                        0x000021da   Section        0  nrf_balloc.o(i.nrf_balloc_free)
-    i.nrf_balloc_init                        0x00002204   Section        0  nrf_balloc.o(i.nrf_balloc_init)
-    i.nrf_bitmask_bit_is_set                 0x00002234   Section        0  nrfx_gpiote.o(i.nrf_bitmask_bit_is_set)
-    nrf_bitmask_bit_is_set                   0x00002235   Thumb Code    16  nrfx_gpiote.o(i.nrf_bitmask_bit_is_set)
-    i.nrf_delay_ms                           0x00002244   Section        0  main.o(i.nrf_delay_ms)
-    nrf_delay_ms                             0x00002245   Thumb Code    28  main.o(i.nrf_delay_ms)
-    i.nrf_delay_ms                           0x00002264   Section        0  nrf5_ade9153a.o(i.nrf_delay_ms)
-    nrf_delay_ms                             0x00002265   Thumb Code    28  nrf5_ade9153a.o(i.nrf_delay_ms)
-    i.nrf_drv_spi_init                       0x00002284   Section        0  nrf_drv_spi.o(i.nrf_drv_spi_init)
-    i.nrf_drv_spi_transfer                   0x000022f4   Section        0  nrf5_ade9153a.o(i.nrf_drv_spi_transfer)
-    nrf_drv_spi_transfer                     0x000022f5   Thumb Code    22  nrf5_ade9153a.o(i.nrf_drv_spi_transfer)
-    i.nrf_drv_uart_init                      0x0000230c   Section        0  nrf_drv_uart.o(i.nrf_drv_uart_init)
-    i.nrf_fprintf                            0x00002374   Section        0  nrf_fprintf.o(i.nrf_fprintf)
-    i.nrf_fprintf_buffer_flush               0x0000238e   Section        0  nrf_fprintf.o(i.nrf_fprintf_buffer_flush)
-    i.nrf_fprintf_fmt                        0x000023a6   Section        0  nrf_fprintf_format.o(i.nrf_fprintf_fmt)
-    i.nrf_gpio_cfg                           0x00002580   Section        0  boards.o(i.nrf_gpio_cfg)
-    nrf_gpio_cfg                             0x00002581   Thumb Code    36  boards.o(i.nrf_gpio_cfg)
-    i.nrf_gpio_cfg                           0x000025a4   Section        0  nrfx_spim.o(i.nrf_gpio_cfg)
-    nrf_gpio_cfg                             0x000025a5   Thumb Code    36  nrfx_spim.o(i.nrf_gpio_cfg)
-    i.nrf_gpio_cfg                           0x000025c8   Section        0  nrfx_uart.o(i.nrf_gpio_cfg)
-    nrf_gpio_cfg                             0x000025c9   Thumb Code    36  nrfx_uart.o(i.nrf_gpio_cfg)
-    i.nrf_gpio_cfg                           0x000025ec   Section        0  nrfx_uarte.o(i.nrf_gpio_cfg)
-    nrf_gpio_cfg                             0x000025ed   Thumb Code    36  nrfx_uarte.o(i.nrf_gpio_cfg)
-    i.nrf_gpio_cfg_default                   0x00002610   Section        0  nrfx_uart.o(i.nrf_gpio_cfg_default)
-    nrf_gpio_cfg_default                     0x00002611   Thumb Code    18  nrfx_uart.o(i.nrf_gpio_cfg_default)
-    i.nrf_gpio_cfg_default                   0x00002622   Section        0  nrfx_uarte.o(i.nrf_gpio_cfg_default)
-    nrf_gpio_cfg_default                     0x00002623   Thumb Code    18  nrfx_uarte.o(i.nrf_gpio_cfg_default)
-    i.nrf_gpio_cfg_input                     0x00002634   Section        0  nrfx_uart.o(i.nrf_gpio_cfg_input)
-    nrf_gpio_cfg_input                       0x00002635   Thumb Code    18  nrfx_uart.o(i.nrf_gpio_cfg_input)
-    i.nrf_gpio_cfg_input                     0x00002646   Section        0  nrfx_uarte.o(i.nrf_gpio_cfg_input)
-    nrf_gpio_cfg_input                       0x00002647   Thumb Code    18  nrfx_uarte.o(i.nrf_gpio_cfg_input)
-    i.nrf_gpio_cfg_output                    0x00002658   Section        0  nrfx_spim.o(i.nrf_gpio_cfg_output)
-    nrf_gpio_cfg_output                      0x00002659   Thumb Code    20  nrfx_spim.o(i.nrf_gpio_cfg_output)
-    i.nrf_gpio_cfg_output                    0x0000266c   Section        0  nrfx_uart.o(i.nrf_gpio_cfg_output)
-    nrf_gpio_cfg_output                      0x0000266d   Thumb Code    20  nrfx_uart.o(i.nrf_gpio_cfg_output)
-    i.nrf_gpio_cfg_output                    0x00002680   Section        0  nrfx_uarte.o(i.nrf_gpio_cfg_output)
-    nrf_gpio_cfg_output                      0x00002681   Thumb Code    20  nrfx_uarte.o(i.nrf_gpio_cfg_output)
-    i.nrf_gpio_cfg_sense_set                 0x00002694   Section        0  nrfx_gpiote.o(i.nrf_gpio_cfg_sense_set)
-    nrf_gpio_cfg_sense_set                   0x00002695   Thumb Code    34  nrfx_gpiote.o(i.nrf_gpio_cfg_sense_set)
-    i.nrf_gpio_latches_read_and_clear        0x000026b8   Section        0  nrfx_gpiote.o(i.nrf_gpio_latches_read_and_clear)
-    nrf_gpio_latches_read_and_clear          0x000026b9   Thumb Code    38  nrfx_gpiote.o(i.nrf_gpio_latches_read_and_clear)
-    i.nrf_gpio_pin_clear                     0x000026e4   Section        0  nrfx_spim.o(i.nrf_gpio_pin_clear)
-    nrf_gpio_pin_clear                       0x000026e5   Thumb Code    14  nrfx_spim.o(i.nrf_gpio_pin_clear)
-    i.nrf_gpio_pin_set                       0x000026f2   Section        0  nrfx_spim.o(i.nrf_gpio_pin_set)
-    nrf_gpio_pin_set                         0x000026f3   Thumb Code    14  nrfx_spim.o(i.nrf_gpio_pin_set)
-    i.nrf_gpio_pin_write                     0x00002700   Section        0  boards.o(i.nrf_gpio_pin_write)
-    nrf_gpio_pin_write                       0x00002701   Thumb Code    22  boards.o(i.nrf_gpio_pin_write)
-    i.nrf_gpiote_event_clear                 0x00002718   Section        0  nrfx_gpiote.o(i.nrf_gpiote_event_clear)
-    nrf_gpiote_event_clear                   0x00002719   Thumb Code    16  nrfx_gpiote.o(i.nrf_gpiote_event_clear)
-    i.nrf_gpiote_event_is_set                0x0000272c   Section        0  nrfx_gpiote.o(i.nrf_gpiote_event_is_set)
-    nrf_gpiote_event_is_set                  0x0000272d   Thumb Code    12  nrfx_gpiote.o(i.nrf_gpiote_event_is_set)
-    i.nrf_log_backend_add                    0x0000273c   Section        0  nrf_log_frontend.o(i.nrf_log_backend_add)
-    i.nrf_log_backend_serial_put             0x00002798   Section        0  nrf_log_backend_serial.o(i.nrf_log_backend_serial_put)
-    i.nrf_log_backend_uart_flush             0x00002860   Section        0  nrf_log_backend_uart.o(i.nrf_log_backend_uart_flush)
-    nrf_log_backend_uart_flush               0x00002861   Thumb Code     2  nrf_log_backend_uart.o(i.nrf_log_backend_uart_flush)
-    i.nrf_log_backend_uart_init              0x00002862   Section        0  nrf_log_backend_uart.o(i.nrf_log_backend_uart_init)
-    i.nrf_log_backend_uart_panic_set         0x00002868   Section        0  nrf_log_backend_uart.o(i.nrf_log_backend_uart_panic_set)
-    nrf_log_backend_uart_panic_set           0x00002869   Thumb Code    36  nrf_log_backend_uart.o(i.nrf_log_backend_uart_panic_set)
-    i.nrf_log_backend_uart_put               0x00002894   Section        0  nrf_log_backend_uart.o(i.nrf_log_backend_uart_put)
-    nrf_log_backend_uart_put                 0x00002895   Thumb Code    16  nrf_log_backend_uart.o(i.nrf_log_backend_uart_put)
-    i.nrf_log_color_id_get                   0x000028ac   Section        0  nrf_log_frontend.o(i.nrf_log_color_id_get)
-    i.nrf_log_default_backends_init          0x000028dc   Section        0  nrf_log_default_backends.o(i.nrf_log_default_backends_init)
-    i.nrf_log_frontend_dequeue               0x000028f8   Section        0  nrf_log_frontend.o(i.nrf_log_frontend_dequeue)
-    i.nrf_log_frontend_std_0                 0x00002b2c   Section        0  nrf_log_frontend.o(i.nrf_log_frontend_std_0)
-    i.nrf_log_frontend_std_1                 0x00002b34   Section        0  nrf_log_frontend.o(i.nrf_log_frontend_std_1)
-    i.nrf_log_frontend_std_2                 0x00002b42   Section        0  nrf_log_frontend.o(i.nrf_log_frontend_std_2)
-    i.nrf_log_frontend_std_3                 0x00002b52   Section        0  nrf_log_frontend.o(i.nrf_log_frontend_std_3)
-    i.nrf_log_frontend_std_4                 0x00002b64   Section        0  nrf_log_frontend.o(i.nrf_log_frontend_std_4)
-    i.nrf_log_hexdump_entry_process          0x00002b78   Section        0  nrf_log_str_formatter.o(i.nrf_log_hexdump_entry_process)
-    i.nrf_log_init                           0x00002c28   Section        0  nrf_log_frontend.o(i.nrf_log_init)
-    i.nrf_log_module_cnt_get                 0x00002c50   Section        0  nrf_log_frontend.o(i.nrf_log_module_cnt_get)
-    i.nrf_log_module_name_get                0x00002c64   Section        0  nrf_log_frontend.o(i.nrf_log_module_name_get)
-    i.nrf_log_panic                          0x00002c80   Section        0  nrf_log_frontend.o(i.nrf_log_panic)
-    i.nrf_log_std_entry_process              0x00002ca8   Section        0  nrf_log_str_formatter.o(i.nrf_log_std_entry_process)
-    i.nrf_memobj_alloc                       0x00002d5e   Section        0  nrf_memobj.o(i.nrf_memobj_alloc)
-    i.nrf_memobj_free                        0x00002dbe   Section        0  nrf_memobj.o(i.nrf_memobj_free)
-    i.nrf_memobj_get                         0x00002df0   Section        0  nrf_memobj.o(i.nrf_memobj_get)
-    i.nrf_memobj_pool_init                   0x00002df8   Section        0  nrf_memobj.o(i.nrf_memobj_pool_init)
-    i.nrf_memobj_put                         0x00002dfc   Section        0  nrf_memobj.o(i.nrf_memobj_put)
-    i.nrf_memobj_read                        0x00002e1a   Section        0  nrf_memobj.o(i.nrf_memobj_read)
-    i.nrf_memobj_write                       0x00002e2a   Section        0  nrf_memobj.o(i.nrf_memobj_write)
-    i.nrf_ringbuf_init                       0x00002e3a   Section        0  nrf_ringbuf.o(i.nrf_ringbuf_init)
-    i.nrf_spim_event_check                   0x00002e56   Section        0  nrfx_spim.o(i.nrf_spim_event_check)
-    nrf_spim_event_check                     0x00002e57   Thumb Code    10  nrfx_spim.o(i.nrf_spim_event_check)
-    i.nrf_uart_event_check                   0x00002e60   Section        0  nrfx_uart.o(i.nrf_uart_event_check)
-    nrf_uart_event_check                     0x00002e61   Thumb Code    10  nrfx_uart.o(i.nrf_uart_event_check)
-    i.nrf_uart_event_clear                   0x00002e6a   Section        0  nrfx_uart.o(i.nrf_uart_event_clear)
-    nrf_uart_event_clear                     0x00002e6b   Thumb Code    12  nrfx_uart.o(i.nrf_uart_event_clear)
-    i.nrf_uart_int_enable_check              0x00002e76   Section        0  nrfx_uart.o(i.nrf_uart_int_enable_check)
-    nrf_uart_int_enable_check                0x00002e77   Thumb Code    12  nrfx_uart.o(i.nrf_uart_int_enable_check)
-    i.nrf_uarte_event_check                  0x00002e82   Section        0  nrfx_uarte.o(i.nrf_uarte_event_check)
-    nrf_uarte_event_check                    0x00002e83   Thumb Code    10  nrfx_uarte.o(i.nrf_uarte_event_check)
-    i.nrf_uarte_event_clear                  0x00002e8c   Section        0  nrfx_uarte.o(i.nrf_uarte_event_clear)
-    nrf_uarte_event_clear                    0x00002e8d   Thumb Code    12  nrfx_uarte.o(i.nrf_uarte_event_clear)
-    i.nrfx_is_in_ram                         0x00002e98   Section        0  nrfx_spim.o(i.nrfx_is_in_ram)
-    nrfx_is_in_ram                           0x00002e99   Thumb Code    16  nrfx_spim.o(i.nrfx_is_in_ram)
-    i.nrfx_is_in_ram                         0x00002ea8   Section        0  nrfx_uarte.o(i.nrfx_is_in_ram)
-    nrfx_is_in_ram                           0x00002ea9   Thumb Code    16  nrfx_uarte.o(i.nrfx_is_in_ram)
-    i.nrfx_prs_acquire                       0x00002eb8   Section        0  nrfx_prs.o(i.nrfx_prs_acquire)
-    i.nrfx_prs_release                       0x00002ee8   Section        0  nrfx_prs.o(i.nrfx_prs_release)
-    i.nrfx_spim_init                         0x00002efc   Section        0  nrfx_spim.o(i.nrfx_spim_init)
-    i.nrfx_spim_xfer                         0x00003068   Section        0  nrfx_spim.o(i.nrfx_spim_xfer)
-    i.nrfx_uart_0_irq_handler                0x000030cc   Section        0  nrfx_uart.o(i.nrfx_uart_0_irq_handler)
-    i.nrfx_uart_init                         0x000030dc   Section        0  nrfx_uart.o(i.nrfx_uart_init)
-    i.nrfx_uart_tx                           0x000031b0   Section        0  nrfx_uart.o(i.nrfx_uart_tx)
-    i.nrfx_uart_tx_in_progress               0x00003258   Section        0  nrfx_uart.o(i.nrfx_uart_tx_in_progress)
-    i.nrfx_uart_uninit                       0x00003278   Section        0  nrfx_uart.o(i.nrfx_uart_uninit)
-    i.nrfx_uarte_0_irq_handler               0x00003338   Section        0  nrfx_uarte.o(i.nrfx_uarte_0_irq_handler)
-    i.nrfx_uarte_init                        0x00003348   Section        0  nrfx_uarte.o(i.nrfx_uarte_init)
-    i.nrfx_uarte_tx                          0x000033b4   Section        0  nrfx_uarte.o(i.nrfx_uarte_tx)
-    i.nrfx_uarte_tx_in_progress              0x00003460   Section        0  nrfx_uarte.o(i.nrfx_uarte_tx_in_progress)
-    i.nrfx_uarte_uninit                      0x0000347c   Section        0  nrfx_uarte.o(i.nrfx_uarte_uninit)
-    i.port_event_handle                      0x00003584   Section        0  nrfx_gpiote.o(i.port_event_handle)
-    port_event_handle                        0x00003585   Thumb Code   176  nrfx_gpiote.o(i.port_event_handle)
-    i.port_handler_polarity_get              0x00003638   Section        0  nrfx_gpiote.o(i.port_handler_polarity_get)
-    port_handler_polarity_get                0x00003639   Thumb Code    12  nrfx_gpiote.o(i.port_handler_polarity_get)
-    i.postfix_process                        0x00003648   Section        0  nrf_log_str_formatter.o(i.postfix_process)
-    postfix_process                          0x00003649   Thumb Code    48  nrf_log_str_formatter.o(i.postfix_process)
-    i.prefix_process                         0x00003684   Section        0  nrf_log_str_formatter.o(i.prefix_process)
-    prefix_process                           0x00003685   Thumb Code    90  nrf_log_str_formatter.o(i.prefix_process)
-    i.prs_box_get                            0x0000371c   Section        0  nrfx_prs.o(i.prs_box_get)
-    prs_box_get                              0x0000371d   Thumb Code    14  nrfx_prs.o(i.prs_box_get)
-    i.rx_byte                                0x00003734   Section        0  nrfx_uart.o(i.rx_byte)
-    rx_byte                                  0x00003735   Thumb Code    50  nrfx_uart.o(i.rx_byte)
-    i.rx_done_event                          0x00003766   Section        0  nrfx_uart.o(i.rx_done_event)
-    rx_done_event                            0x00003767   Thumb Code    22  nrfx_uart.o(i.rx_done_event)
-    i.rx_done_event                          0x0000377c   Section        0  nrfx_uarte.o(i.rx_done_event)
-    rx_done_event                            0x0000377d   Thumb Code    22  nrfx_uarte.o(i.rx_done_event)
-    i.serial_tx                              0x00003794   Section        0  nrf_log_backend_uart.o(i.serial_tx)
-    serial_tx                                0x00003795   Thumb Code    54  nrf_log_backend_uart.o(i.serial_tx)
-    i.spi_event_handler                      0x000037d4   Section        0  nrf5_ade9153a.o(i.spi_event_handler)
-    i.spi_read16                             0x000037e0   Section        0  nrf5_ade9153a.o(i.spi_read16)
-    i.spi_read32                             0x00003830   Section        0  nrf5_ade9153a.o(i.spi_read32)
-    i.spi_write16                            0x00003894   Section        0  nrf5_ade9153a.o(i.spi_write16)
-    i.spi_write32                            0x000038e4   Section        0  nrf5_ade9153a.o(i.spi_write32)
-    i.spim_evt_handler                       0x00003944   Section        0  nrf_drv_spi.o(i.spim_evt_handler)
-    spim_evt_handler                         0x00003945   Thumb Code    52  nrf_drv_spi.o(i.spim_evt_handler)
-    i.spim_xfer                              0x0000397c   Section        0  nrfx_spim.o(i.spim_xfer)
-    spim_xfer                                0x0000397d   Thumb Code   188  nrfx_spim.o(i.spim_xfer)
-    i.std_n                                  0x00003a38   Section        0  nrf_log_frontend.o(i.std_n)
-    std_n                                    0x00003a39   Thumb Code   140  nrf_log_frontend.o(i.std_n)
-    i.tx_byte                                0x00003acc   Section        0  nrfx_uart.o(i.tx_byte)
-    tx_byte                                  0x00003acd   Thumb Code    32  nrfx_uart.o(i.tx_byte)
-    i.tx_done_event                          0x00003aec   Section        0  nrfx_uart.o(i.tx_done_event)
-    tx_done_event                            0x00003aed   Thumb Code    26  nrfx_uart.o(i.tx_done_event)
-    i.tx_done_event                          0x00003b06   Section        0  nrfx_uarte.o(i.tx_done_event)
-    tx_done_event                            0x00003b07   Thumb Code    26  nrfx_uarte.o(i.tx_done_event)
-    i.uart_evt_handler                       0x00003b20   Section        0  nrf_drv_uart.o(i.uart_evt_handler)
-    uart_evt_handler                         0x00003b21   Thumb Code    42  nrf_drv_uart.o(i.uart_evt_handler)
-    i.uart_evt_handler                       0x00003b50   Section        0  nrf_log_backend_uart.o(i.uart_evt_handler)
-    uart_evt_handler                         0x00003b51   Thumb Code     8  nrf_log_backend_uart.o(i.uart_evt_handler)
-    i.uart_init                              0x00003b5c   Section        0  nrf_log_backend_uart.o(i.uart_init)
-    uart_init                                0x00003b5d   Thumb Code    66  nrf_log_backend_uart.o(i.uart_init)
-    i.uart_irq_handler                       0x00003bac   Section        0  nrfx_uart.o(i.uart_irq_handler)
-    uart_irq_handler                         0x00003bad   Thumb Code   298  nrfx_uart.o(i.uart_irq_handler)
-    i.uarte_evt_handler                      0x00003cd8   Section        0  nrf_drv_uart.o(i.uarte_evt_handler)
-    uarte_evt_handler                        0x00003cd9   Thumb Code    42  nrf_drv_uart.o(i.uarte_evt_handler)
-    i.uarte_irq_handler                      0x00003d08   Section        0  nrfx_uarte.o(i.uarte_irq_handler)
-    uarte_irq_handler                        0x00003d09   Thumb Code   274  nrfx_uarte.o(i.uarte_irq_handler)
-    i.unsigned_print                         0x00003e1c   Section        0  nrf_fprintf_format.o(i.unsigned_print)
-    unsigned_print                           0x00003e1d   Thumb Code   176  nrf_fprintf_format.o(i.unsigned_print)
-    .constdata                               0x00003ed0   Section        6  main.o(.constdata)
-    delay_machine_code                       0x00003ed0   Data           6  main.o(.constdata)
-    .constdata                               0x00003ed6   Section        8  boards.o(.constdata)
-    m_board_led_list                         0x00003ed6   Data           4  boards.o(.constdata)
-    m_board_btn_list                         0x00003eda   Data           4  boards.o(.constdata)
-    .constdata                               0x00003ee0   Section       16  nrf_drv_spi.o(.constdata)
-    .constdata                               0x00003ef0   Section        4  nrfx_gpiote.o(.constdata)
-    .constdata                               0x00003ef4   Section        4  nrfx_spim.o(.constdata)
-    irq_handlers                             0x00003ef4   Data           4  nrfx_spim.o(.constdata)
-    .constdata                               0x00003ef8   Section        4  nrfx_uart.o(.constdata)
-    irq_handlers                             0x00003ef8   Data           4  nrfx_uart.o(.constdata)
-    .constdata                               0x00003efc   Section        4  nrfx_uarte.o(.constdata)
-    irq_handlers                             0x00003efc   Data           4  nrfx_uarte.o(.constdata)
-    .constdata                               0x00003f00   Section       16  nrf_fprintf_format.o(.constdata)
-    _aV2C                                    0x00003f00   Data          16  nrf_fprintf_format.o(.constdata)
-    .constdata                               0x00003f10   Section       12  nrf_log_backend_uart.o(.constdata)
-    .constdata                               0x00003f1c   Section       32  nrf_log_backend_uart.o(.constdata)
-    .constdata                               0x00003f3c   Section       12  nrf_log_frontend.o(.constdata)
-    m_log_push_ringbuf                       0x00003f3c   Data          12  nrf_log_frontend.o(.constdata)
-    .constdata                               0x00003f50   Section       40  nrf5_ade9153a.o(.constdata)
-    delay_machine_code                       0x00003f50   Data           6  nrf5_ade9153a.o(.constdata)
-    spi                                      0x00003f58   Data          16  nrf5_ade9153a.o(.constdata)
-    .constdata                               0x00003f78   Section      129  ctype_o.o(.constdata)
-    .constdata                               0x00003ffc   Section        4  ctype_o.o(.constdata)
-    table                                    0x00003ffc   Data           4  ctype_o.o(.constdata)
-    .conststring                             0x00004000   Section      102  nrf_log_str_formatter.o(.conststring)
-    .conststrlit                             0x00004068   Section        7  nrfx_gpiote.o(.conststrlit)
-    .conststrlit                             0x00004070   Section        4  nrfx_prs.o(.conststrlit)
-    .conststrlit                             0x00004074   Section        5  nrfx_spim.o(.conststrlit)
-    .conststrlit                             0x0000407c   Section        5  nrfx_uart.o(.conststrlit)
-    .conststrlit                             0x00004084   Section        6  nrfx_uarte.o(.conststrlit)
-    .conststrlit                             0x0000408c   Section       11  app_button.o(.conststrlit)
-    .conststrlit                             0x00004098   Section       10  app_timer2.o(.conststrlit)
-    .conststrlit                             0x000040a4   Section        9  nrf_sortlist.o(.conststrlit)
-    .conststrlit                             0x000040b0   Section       17  nrf_log_default_backends.o(.conststrlit)
-    .conststrlit                             0x000040c4   Section        4  nrf_log_frontend.o(.conststrlit)
-    log_backends                             0x000040e8   Section       16  nrf_log_default_backends.o(log_backends)
-    __tagsym$$used                           0x000040e8   Number         0  nrf_log_default_backends.o(log_backends)
-    uart_log_backend                         0x000040e8   Data          16  nrf_log_default_backends.o(log_backends)
-    log_const_data                           0x000040f8   Section        8  nrfx_gpiote.o(log_const_data)
-    __tagsym$$used                           0x000040f8   Number         0  nrfx_gpiote.o(log_const_data)
-    log_const_data                           0x00004100   Section        8  nrfx_prs.o(log_const_data)
-    __tagsym$$used                           0x00004100   Number         0  nrfx_prs.o(log_const_data)
-    log_const_data                           0x00004108   Section        8  nrfx_spim.o(log_const_data)
-    __tagsym$$used                           0x00004108   Number         0  nrfx_spim.o(log_const_data)
-    log_const_data                           0x00004110   Section        8  nrfx_uart.o(log_const_data)
-    __tagsym$$used                           0x00004110   Number         0  nrfx_uart.o(log_const_data)
-    log_const_data                           0x00004118   Section        8  nrfx_uarte.o(log_const_data)
-    __tagsym$$used                           0x00004118   Number         0  nrfx_uarte.o(log_const_data)
-    log_const_data                           0x00004120   Section        8  app_button.o(log_const_data)
-    __tagsym$$used                           0x00004120   Number         0  app_button.o(log_const_data)
-    log_const_data                           0x00004128   Section        8  app_timer2.o(log_const_data)
-    __tagsym$$used                           0x00004128   Number         0  app_timer2.o(log_const_data)
-    log_const_data                           0x00004130   Section        8  nrf_sortlist.o(log_const_data)
-    __tagsym$$used                           0x00004130   Number         0  nrf_sortlist.o(log_const_data)
-    log_const_data                           0x00004138   Section        8  nrf_log_frontend.o(log_const_data)
-    __tagsym$$used                           0x00004138   Number         0  nrf_log_frontend.o(log_const_data)
-    nrf_balloc                               0x00004140   Section       20  nrf_log_frontend.o(nrf_balloc)
-    __tagsym$$used                           0x00004140   Number         0  nrf_log_frontend.o(nrf_balloc)
+    i.memobj_op                              0x000020e8   Section        0  nrf_memobj.o(i.memobj_op)
+    memobj_op                                0x000020e9   Thumb Code   126  nrf_memobj.o(i.memobj_op)
+    i.module_idx_get                         0x00002168   Section        0  nrf_log_frontend.o(i.module_idx_get)
+    module_idx_get                           0x00002169   Thumb Code    42  nrf_log_frontend.o(i.module_idx_get)
+    i.nrf_atomic_flag_clear_fetch            0x00002198   Section        0  nrf_atomic.o(i.nrf_atomic_flag_clear_fetch)
+    i.nrf_atomic_flag_set                    0x0000219e   Section        0  nrf_atomic.o(i.nrf_atomic_flag_set)
+    i.nrf_atomic_u32_add                     0x000021a4   Section        0  nrf_atomic.o(i.nrf_atomic_u32_add)
+    i.nrf_atomic_u32_fetch_and               0x000021b0   Section        0  nrf_atomic.o(i.nrf_atomic_u32_fetch_and)
+    i.nrf_atomic_u32_fetch_store             0x000021ba   Section        0  nrf_atomic.o(i.nrf_atomic_u32_fetch_store)
+    i.nrf_atomic_u32_or                      0x000021c4   Section        0  nrf_atomic.o(i.nrf_atomic_u32_or)
+    i.nrf_atomic_u32_sub                     0x000021d0   Section        0  nrf_atomic.o(i.nrf_atomic_u32_sub)
+    i.nrf_balloc_alloc                       0x000021dc   Section        0  nrf_balloc.o(i.nrf_balloc_alloc)
+    i.nrf_balloc_free                        0x0000221a   Section        0  nrf_balloc.o(i.nrf_balloc_free)
+    i.nrf_balloc_init                        0x00002244   Section        0  nrf_balloc.o(i.nrf_balloc_init)
+    i.nrf_bitmask_bit_is_set                 0x00002274   Section        0  nrfx_gpiote.o(i.nrf_bitmask_bit_is_set)
+    nrf_bitmask_bit_is_set                   0x00002275   Thumb Code    16  nrfx_gpiote.o(i.nrf_bitmask_bit_is_set)
+    i.nrf_delay_ms                           0x00002284   Section        0  main.o(i.nrf_delay_ms)
+    nrf_delay_ms                             0x00002285   Thumb Code    28  main.o(i.nrf_delay_ms)
+    i.nrf_delay_ms                           0x000022a4   Section        0  nrf5_ade9153a.o(i.nrf_delay_ms)
+    nrf_delay_ms                             0x000022a5   Thumb Code    28  nrf5_ade9153a.o(i.nrf_delay_ms)
+    i.nrf_drv_spi_init                       0x000022c4   Section        0  nrf_drv_spi.o(i.nrf_drv_spi_init)
+    i.nrf_drv_spi_transfer                   0x00002334   Section        0  nrf5_ade9153a.o(i.nrf_drv_spi_transfer)
+    nrf_drv_spi_transfer                     0x00002335   Thumb Code    22  nrf5_ade9153a.o(i.nrf_drv_spi_transfer)
+    i.nrf_drv_uart_init                      0x0000234c   Section        0  nrf_drv_uart.o(i.nrf_drv_uart_init)
+    i.nrf_fprintf                            0x000023b4   Section        0  nrf_fprintf.o(i.nrf_fprintf)
+    i.nrf_fprintf_buffer_flush               0x000023ce   Section        0  nrf_fprintf.o(i.nrf_fprintf_buffer_flush)
+    i.nrf_fprintf_fmt                        0x000023e6   Section        0  nrf_fprintf_format.o(i.nrf_fprintf_fmt)
+    i.nrf_gpio_cfg                           0x000025c0   Section        0  boards.o(i.nrf_gpio_cfg)
+    nrf_gpio_cfg                             0x000025c1   Thumb Code    36  boards.o(i.nrf_gpio_cfg)
+    i.nrf_gpio_cfg                           0x000025e4   Section        0  nrfx_spim.o(i.nrf_gpio_cfg)
+    nrf_gpio_cfg                             0x000025e5   Thumb Code    36  nrfx_spim.o(i.nrf_gpio_cfg)
+    i.nrf_gpio_cfg                           0x00002608   Section        0  nrfx_uart.o(i.nrf_gpio_cfg)
+    nrf_gpio_cfg                             0x00002609   Thumb Code    36  nrfx_uart.o(i.nrf_gpio_cfg)
+    i.nrf_gpio_cfg                           0x0000262c   Section        0  nrfx_uarte.o(i.nrf_gpio_cfg)
+    nrf_gpio_cfg                             0x0000262d   Thumb Code    36  nrfx_uarte.o(i.nrf_gpio_cfg)
+    i.nrf_gpio_cfg_default                   0x00002650   Section        0  nrfx_uart.o(i.nrf_gpio_cfg_default)
+    nrf_gpio_cfg_default                     0x00002651   Thumb Code    18  nrfx_uart.o(i.nrf_gpio_cfg_default)
+    i.nrf_gpio_cfg_default                   0x00002662   Section        0  nrfx_uarte.o(i.nrf_gpio_cfg_default)
+    nrf_gpio_cfg_default                     0x00002663   Thumb Code    18  nrfx_uarte.o(i.nrf_gpio_cfg_default)
+    i.nrf_gpio_cfg_input                     0x00002674   Section        0  nrfx_uart.o(i.nrf_gpio_cfg_input)
+    nrf_gpio_cfg_input                       0x00002675   Thumb Code    18  nrfx_uart.o(i.nrf_gpio_cfg_input)
+    i.nrf_gpio_cfg_input                     0x00002686   Section        0  nrfx_uarte.o(i.nrf_gpio_cfg_input)
+    nrf_gpio_cfg_input                       0x00002687   Thumb Code    18  nrfx_uarte.o(i.nrf_gpio_cfg_input)
+    i.nrf_gpio_cfg_output                    0x00002698   Section        0  nrfx_spim.o(i.nrf_gpio_cfg_output)
+    nrf_gpio_cfg_output                      0x00002699   Thumb Code    20  nrfx_spim.o(i.nrf_gpio_cfg_output)
+    i.nrf_gpio_cfg_output                    0x000026ac   Section        0  nrfx_uart.o(i.nrf_gpio_cfg_output)
+    nrf_gpio_cfg_output                      0x000026ad   Thumb Code    20  nrfx_uart.o(i.nrf_gpio_cfg_output)
+    i.nrf_gpio_cfg_output                    0x000026c0   Section        0  nrfx_uarte.o(i.nrf_gpio_cfg_output)
+    nrf_gpio_cfg_output                      0x000026c1   Thumb Code    20  nrfx_uarte.o(i.nrf_gpio_cfg_output)
+    i.nrf_gpio_cfg_sense_set                 0x000026d4   Section        0  nrfx_gpiote.o(i.nrf_gpio_cfg_sense_set)
+    nrf_gpio_cfg_sense_set                   0x000026d5   Thumb Code    34  nrfx_gpiote.o(i.nrf_gpio_cfg_sense_set)
+    i.nrf_gpio_latches_read_and_clear        0x000026f8   Section        0  nrfx_gpiote.o(i.nrf_gpio_latches_read_and_clear)
+    nrf_gpio_latches_read_and_clear          0x000026f9   Thumb Code    38  nrfx_gpiote.o(i.nrf_gpio_latches_read_and_clear)
+    i.nrf_gpio_pin_clear                     0x00002724   Section        0  nrfx_spim.o(i.nrf_gpio_pin_clear)
+    nrf_gpio_pin_clear                       0x00002725   Thumb Code    14  nrfx_spim.o(i.nrf_gpio_pin_clear)
+    i.nrf_gpio_pin_set                       0x00002732   Section        0  nrfx_spim.o(i.nrf_gpio_pin_set)
+    nrf_gpio_pin_set                         0x00002733   Thumb Code    14  nrfx_spim.o(i.nrf_gpio_pin_set)
+    i.nrf_gpio_pin_write                     0x00002740   Section        0  boards.o(i.nrf_gpio_pin_write)
+    nrf_gpio_pin_write                       0x00002741   Thumb Code    22  boards.o(i.nrf_gpio_pin_write)
+    i.nrf_gpiote_event_clear                 0x00002758   Section        0  nrfx_gpiote.o(i.nrf_gpiote_event_clear)
+    nrf_gpiote_event_clear                   0x00002759   Thumb Code    16  nrfx_gpiote.o(i.nrf_gpiote_event_clear)
+    i.nrf_gpiote_event_is_set                0x0000276c   Section        0  nrfx_gpiote.o(i.nrf_gpiote_event_is_set)
+    nrf_gpiote_event_is_set                  0x0000276d   Thumb Code    12  nrfx_gpiote.o(i.nrf_gpiote_event_is_set)
+    i.nrf_log_backend_add                    0x0000277c   Section        0  nrf_log_frontend.o(i.nrf_log_backend_add)
+    i.nrf_log_backend_serial_put             0x000027d8   Section        0  nrf_log_backend_serial.o(i.nrf_log_backend_serial_put)
+    i.nrf_log_backend_uart_flush             0x000028a0   Section        0  nrf_log_backend_uart.o(i.nrf_log_backend_uart_flush)
+    nrf_log_backend_uart_flush               0x000028a1   Thumb Code     2  nrf_log_backend_uart.o(i.nrf_log_backend_uart_flush)
+    i.nrf_log_backend_uart_init              0x000028a2   Section        0  nrf_log_backend_uart.o(i.nrf_log_backend_uart_init)
+    i.nrf_log_backend_uart_panic_set         0x000028a8   Section        0  nrf_log_backend_uart.o(i.nrf_log_backend_uart_panic_set)
+    nrf_log_backend_uart_panic_set           0x000028a9   Thumb Code    36  nrf_log_backend_uart.o(i.nrf_log_backend_uart_panic_set)
+    i.nrf_log_backend_uart_put               0x000028d4   Section        0  nrf_log_backend_uart.o(i.nrf_log_backend_uart_put)
+    nrf_log_backend_uart_put                 0x000028d5   Thumb Code    16  nrf_log_backend_uart.o(i.nrf_log_backend_uart_put)
+    i.nrf_log_color_id_get                   0x000028ec   Section        0  nrf_log_frontend.o(i.nrf_log_color_id_get)
+    i.nrf_log_default_backends_init          0x0000291c   Section        0  nrf_log_default_backends.o(i.nrf_log_default_backends_init)
+    i.nrf_log_frontend_dequeue               0x00002938   Section        0  nrf_log_frontend.o(i.nrf_log_frontend_dequeue)
+    i.nrf_log_frontend_std_0                 0x00002b6c   Section        0  nrf_log_frontend.o(i.nrf_log_frontend_std_0)
+    i.nrf_log_frontend_std_1                 0x00002b74   Section        0  nrf_log_frontend.o(i.nrf_log_frontend_std_1)
+    i.nrf_log_frontend_std_2                 0x00002b82   Section        0  nrf_log_frontend.o(i.nrf_log_frontend_std_2)
+    i.nrf_log_frontend_std_3                 0x00002b92   Section        0  nrf_log_frontend.o(i.nrf_log_frontend_std_3)
+    i.nrf_log_frontend_std_4                 0x00002ba4   Section        0  nrf_log_frontend.o(i.nrf_log_frontend_std_4)
+    i.nrf_log_hexdump_entry_process          0x00002bb8   Section        0  nrf_log_str_formatter.o(i.nrf_log_hexdump_entry_process)
+    i.nrf_log_init                           0x00002c68   Section        0  nrf_log_frontend.o(i.nrf_log_init)
+    i.nrf_log_module_cnt_get                 0x00002c90   Section        0  nrf_log_frontend.o(i.nrf_log_module_cnt_get)
+    i.nrf_log_module_name_get                0x00002ca4   Section        0  nrf_log_frontend.o(i.nrf_log_module_name_get)
+    i.nrf_log_panic                          0x00002cc0   Section        0  nrf_log_frontend.o(i.nrf_log_panic)
+    i.nrf_log_std_entry_process              0x00002ce8   Section        0  nrf_log_str_formatter.o(i.nrf_log_std_entry_process)
+    i.nrf_memobj_alloc                       0x00002d9e   Section        0  nrf_memobj.o(i.nrf_memobj_alloc)
+    i.nrf_memobj_free                        0x00002dfe   Section        0  nrf_memobj.o(i.nrf_memobj_free)
+    i.nrf_memobj_get                         0x00002e30   Section        0  nrf_memobj.o(i.nrf_memobj_get)
+    i.nrf_memobj_pool_init                   0x00002e38   Section        0  nrf_memobj.o(i.nrf_memobj_pool_init)
+    i.nrf_memobj_put                         0x00002e3c   Section        0  nrf_memobj.o(i.nrf_memobj_put)
+    i.nrf_memobj_read                        0x00002e5a   Section        0  nrf_memobj.o(i.nrf_memobj_read)
+    i.nrf_memobj_write                       0x00002e6a   Section        0  nrf_memobj.o(i.nrf_memobj_write)
+    i.nrf_ringbuf_init                       0x00002e7a   Section        0  nrf_ringbuf.o(i.nrf_ringbuf_init)
+    i.nrf_spim_event_check                   0x00002e96   Section        0  nrfx_spim.o(i.nrf_spim_event_check)
+    nrf_spim_event_check                     0x00002e97   Thumb Code    10  nrfx_spim.o(i.nrf_spim_event_check)
+    i.nrf_uart_event_check                   0x00002ea0   Section        0  nrfx_uart.o(i.nrf_uart_event_check)
+    nrf_uart_event_check                     0x00002ea1   Thumb Code    10  nrfx_uart.o(i.nrf_uart_event_check)
+    i.nrf_uart_event_clear                   0x00002eaa   Section        0  nrfx_uart.o(i.nrf_uart_event_clear)
+    nrf_uart_event_clear                     0x00002eab   Thumb Code    12  nrfx_uart.o(i.nrf_uart_event_clear)
+    i.nrf_uart_int_enable_check              0x00002eb6   Section        0  nrfx_uart.o(i.nrf_uart_int_enable_check)
+    nrf_uart_int_enable_check                0x00002eb7   Thumb Code    12  nrfx_uart.o(i.nrf_uart_int_enable_check)
+    i.nrf_uarte_event_check                  0x00002ec2   Section        0  nrfx_uarte.o(i.nrf_uarte_event_check)
+    nrf_uarte_event_check                    0x00002ec3   Thumb Code    10  nrfx_uarte.o(i.nrf_uarte_event_check)
+    i.nrf_uarte_event_clear                  0x00002ecc   Section        0  nrfx_uarte.o(i.nrf_uarte_event_clear)
+    nrf_uarte_event_clear                    0x00002ecd   Thumb Code    12  nrfx_uarte.o(i.nrf_uarte_event_clear)
+    i.nrfx_is_in_ram                         0x00002ed8   Section        0  nrfx_spim.o(i.nrfx_is_in_ram)
+    nrfx_is_in_ram                           0x00002ed9   Thumb Code    16  nrfx_spim.o(i.nrfx_is_in_ram)
+    i.nrfx_is_in_ram                         0x00002ee8   Section        0  nrfx_uarte.o(i.nrfx_is_in_ram)
+    nrfx_is_in_ram                           0x00002ee9   Thumb Code    16  nrfx_uarte.o(i.nrfx_is_in_ram)
+    i.nrfx_prs_acquire                       0x00002ef8   Section        0  nrfx_prs.o(i.nrfx_prs_acquire)
+    i.nrfx_prs_release                       0x00002f28   Section        0  nrfx_prs.o(i.nrfx_prs_release)
+    i.nrfx_spim_init                         0x00002f3c   Section        0  nrfx_spim.o(i.nrfx_spim_init)
+    i.nrfx_spim_xfer                         0x000030a8   Section        0  nrfx_spim.o(i.nrfx_spim_xfer)
+    i.nrfx_uart_0_irq_handler                0x0000310c   Section        0  nrfx_uart.o(i.nrfx_uart_0_irq_handler)
+    i.nrfx_uart_init                         0x0000311c   Section        0  nrfx_uart.o(i.nrfx_uart_init)
+    i.nrfx_uart_tx                           0x000031f0   Section        0  nrfx_uart.o(i.nrfx_uart_tx)
+    i.nrfx_uart_tx_in_progress               0x00003298   Section        0  nrfx_uart.o(i.nrfx_uart_tx_in_progress)
+    i.nrfx_uart_uninit                       0x000032b8   Section        0  nrfx_uart.o(i.nrfx_uart_uninit)
+    i.nrfx_uarte_0_irq_handler               0x00003378   Section        0  nrfx_uarte.o(i.nrfx_uarte_0_irq_handler)
+    i.nrfx_uarte_init                        0x00003388   Section        0  nrfx_uarte.o(i.nrfx_uarte_init)
+    i.nrfx_uarte_tx                          0x000033f4   Section        0  nrfx_uarte.o(i.nrfx_uarte_tx)
+    i.nrfx_uarte_tx_in_progress              0x000034a0   Section        0  nrfx_uarte.o(i.nrfx_uarte_tx_in_progress)
+    i.nrfx_uarte_uninit                      0x000034bc   Section        0  nrfx_uarte.o(i.nrfx_uarte_uninit)
+    i.port_event_handle                      0x000035c4   Section        0  nrfx_gpiote.o(i.port_event_handle)
+    port_event_handle                        0x000035c5   Thumb Code   176  nrfx_gpiote.o(i.port_event_handle)
+    i.port_handler_polarity_get              0x00003678   Section        0  nrfx_gpiote.o(i.port_handler_polarity_get)
+    port_handler_polarity_get                0x00003679   Thumb Code    12  nrfx_gpiote.o(i.port_handler_polarity_get)
+    i.postfix_process                        0x00003688   Section        0  nrf_log_str_formatter.o(i.postfix_process)
+    postfix_process                          0x00003689   Thumb Code    48  nrf_log_str_formatter.o(i.postfix_process)
+    i.prefix_process                         0x000036c4   Section        0  nrf_log_str_formatter.o(i.prefix_process)
+    prefix_process                           0x000036c5   Thumb Code    90  nrf_log_str_formatter.o(i.prefix_process)
+    i.prs_box_get                            0x0000375c   Section        0  nrfx_prs.o(i.prs_box_get)
+    prs_box_get                              0x0000375d   Thumb Code    14  nrfx_prs.o(i.prs_box_get)
+    i.rx_byte                                0x00003774   Section        0  nrfx_uart.o(i.rx_byte)
+    rx_byte                                  0x00003775   Thumb Code    50  nrfx_uart.o(i.rx_byte)
+    i.rx_done_event                          0x000037a6   Section        0  nrfx_uart.o(i.rx_done_event)
+    rx_done_event                            0x000037a7   Thumb Code    22  nrfx_uart.o(i.rx_done_event)
+    i.rx_done_event                          0x000037bc   Section        0  nrfx_uarte.o(i.rx_done_event)
+    rx_done_event                            0x000037bd   Thumb Code    22  nrfx_uarte.o(i.rx_done_event)
+    i.serial_tx                              0x000037d4   Section        0  nrf_log_backend_uart.o(i.serial_tx)
+    serial_tx                                0x000037d5   Thumb Code    54  nrf_log_backend_uart.o(i.serial_tx)
+    i.spi_event_handler                      0x00003814   Section        0  nrf5_ade9153a.o(i.spi_event_handler)
+    i.spi_read16                             0x00003820   Section        0  nrf5_ade9153a.o(i.spi_read16)
+    i.spi_read32                             0x00003870   Section        0  nrf5_ade9153a.o(i.spi_read32)
+    i.spi_write16                            0x000038d4   Section        0  nrf5_ade9153a.o(i.spi_write16)
+    i.spi_write32                            0x00003924   Section        0  nrf5_ade9153a.o(i.spi_write32)
+    i.spim_evt_handler                       0x00003984   Section        0  nrf_drv_spi.o(i.spim_evt_handler)
+    spim_evt_handler                         0x00003985   Thumb Code    52  nrf_drv_spi.o(i.spim_evt_handler)
+    i.spim_xfer                              0x000039bc   Section        0  nrfx_spim.o(i.spim_xfer)
+    spim_xfer                                0x000039bd   Thumb Code   188  nrfx_spim.o(i.spim_xfer)
+    i.std_n                                  0x00003a78   Section        0  nrf_log_frontend.o(i.std_n)
+    std_n                                    0x00003a79   Thumb Code   140  nrf_log_frontend.o(i.std_n)
+    i.tx_byte                                0x00003b0c   Section        0  nrfx_uart.o(i.tx_byte)
+    tx_byte                                  0x00003b0d   Thumb Code    32  nrfx_uart.o(i.tx_byte)
+    i.tx_done_event                          0x00003b2c   Section        0  nrfx_uart.o(i.tx_done_event)
+    tx_done_event                            0x00003b2d   Thumb Code    26  nrfx_uart.o(i.tx_done_event)
+    i.tx_done_event                          0x00003b46   Section        0  nrfx_uarte.o(i.tx_done_event)
+    tx_done_event                            0x00003b47   Thumb Code    26  nrfx_uarte.o(i.tx_done_event)
+    i.uart_evt_handler                       0x00003b60   Section        0  nrf_drv_uart.o(i.uart_evt_handler)
+    uart_evt_handler                         0x00003b61   Thumb Code    42  nrf_drv_uart.o(i.uart_evt_handler)
+    i.uart_evt_handler                       0x00003b90   Section        0  nrf_log_backend_uart.o(i.uart_evt_handler)
+    uart_evt_handler                         0x00003b91   Thumb Code     8  nrf_log_backend_uart.o(i.uart_evt_handler)
+    i.uart_init                              0x00003b9c   Section        0  nrf_log_backend_uart.o(i.uart_init)
+    uart_init                                0x00003b9d   Thumb Code    66  nrf_log_backend_uart.o(i.uart_init)
+    i.uart_irq_handler                       0x00003bec   Section        0  nrfx_uart.o(i.uart_irq_handler)
+    uart_irq_handler                         0x00003bed   Thumb Code   298  nrfx_uart.o(i.uart_irq_handler)
+    i.uarte_evt_handler                      0x00003d18   Section        0  nrf_drv_uart.o(i.uarte_evt_handler)
+    uarte_evt_handler                        0x00003d19   Thumb Code    42  nrf_drv_uart.o(i.uarte_evt_handler)
+    i.uarte_irq_handler                      0x00003d48   Section        0  nrfx_uarte.o(i.uarte_irq_handler)
+    uarte_irq_handler                        0x00003d49   Thumb Code   274  nrfx_uarte.o(i.uarte_irq_handler)
+    i.unsigned_print                         0x00003e5c   Section        0  nrf_fprintf_format.o(i.unsigned_print)
+    unsigned_print                           0x00003e5d   Thumb Code   176  nrf_fprintf_format.o(i.unsigned_print)
+    .constdata                               0x00003f10   Section        6  main.o(.constdata)
+    delay_machine_code                       0x00003f10   Data           6  main.o(.constdata)
+    .constdata                               0x00003f16   Section        8  boards.o(.constdata)
+    m_board_led_list                         0x00003f16   Data           4  boards.o(.constdata)
+    m_board_btn_list                         0x00003f1a   Data           4  boards.o(.constdata)
+    .constdata                               0x00003f20   Section       16  nrf_drv_spi.o(.constdata)
+    .constdata                               0x00003f30   Section        4  nrfx_gpiote.o(.constdata)
+    .constdata                               0x00003f34   Section        4  nrfx_spim.o(.constdata)
+    irq_handlers                             0x00003f34   Data           4  nrfx_spim.o(.constdata)
+    .constdata                               0x00003f38   Section        4  nrfx_uart.o(.constdata)
+    irq_handlers                             0x00003f38   Data           4  nrfx_uart.o(.constdata)
+    .constdata                               0x00003f3c   Section        4  nrfx_uarte.o(.constdata)
+    irq_handlers                             0x00003f3c   Data           4  nrfx_uarte.o(.constdata)
+    .constdata                               0x00003f40   Section       16  nrf_fprintf_format.o(.constdata)
+    _aV2C                                    0x00003f40   Data          16  nrf_fprintf_format.o(.constdata)
+    .constdata                               0x00003f50   Section       12  nrf_log_backend_uart.o(.constdata)
+    .constdata                               0x00003f5c   Section       32  nrf_log_backend_uart.o(.constdata)
+    .constdata                               0x00003f7c   Section       12  nrf_log_frontend.o(.constdata)
+    m_log_push_ringbuf                       0x00003f7c   Data          12  nrf_log_frontend.o(.constdata)
+    .constdata                               0x00003f90   Section       40  nrf5_ade9153a.o(.constdata)
+    delay_machine_code                       0x00003f90   Data           6  nrf5_ade9153a.o(.constdata)
+    spi                                      0x00003f98   Data          16  nrf5_ade9153a.o(.constdata)
+    .constdata                               0x00003fb8   Section      129  ctype_o.o(.constdata)
+    .constdata                               0x0000403c   Section        4  ctype_o.o(.constdata)
+    table                                    0x0000403c   Data           4  ctype_o.o(.constdata)
+    .conststring                             0x00004040   Section      102  nrf_log_str_formatter.o(.conststring)
+    .conststrlit                             0x000040a8   Section        7  nrfx_gpiote.o(.conststrlit)
+    .conststrlit                             0x000040b0   Section        4  nrfx_prs.o(.conststrlit)
+    .conststrlit                             0x000040b4   Section        5  nrfx_spim.o(.conststrlit)
+    .conststrlit                             0x000040bc   Section        5  nrfx_uart.o(.conststrlit)
+    .conststrlit                             0x000040c4   Section        6  nrfx_uarte.o(.conststrlit)
+    .conststrlit                             0x000040cc   Section       11  app_button.o(.conststrlit)
+    .conststrlit                             0x000040d8   Section       10  app_timer2.o(.conststrlit)
+    .conststrlit                             0x000040e4   Section        9  nrf_sortlist.o(.conststrlit)
+    .conststrlit                             0x000040f0   Section       17  nrf_log_default_backends.o(.conststrlit)
+    .conststrlit                             0x00004104   Section        4  nrf_log_frontend.o(.conststrlit)
+    log_backends                             0x00004128   Section       16  nrf_log_default_backends.o(log_backends)
+    __tagsym$$used                           0x00004128   Number         0  nrf_log_default_backends.o(log_backends)
+    uart_log_backend                         0x00004128   Data          16  nrf_log_default_backends.o(log_backends)
+    log_const_data                           0x00004138   Section        8  nrfx_gpiote.o(log_const_data)
+    __tagsym$$used                           0x00004138   Number         0  nrfx_gpiote.o(log_const_data)
+    log_const_data                           0x00004140   Section        8  nrfx_prs.o(log_const_data)
+    __tagsym$$used                           0x00004140   Number         0  nrfx_prs.o(log_const_data)
+    log_const_data                           0x00004148   Section        8  nrfx_spim.o(log_const_data)
+    __tagsym$$used                           0x00004148   Number         0  nrfx_spim.o(log_const_data)
+    log_const_data                           0x00004150   Section        8  nrfx_uart.o(log_const_data)
+    __tagsym$$used                           0x00004150   Number         0  nrfx_uart.o(log_const_data)
+    log_const_data                           0x00004158   Section        8  nrfx_uarte.o(log_const_data)
+    __tagsym$$used                           0x00004158   Number         0  nrfx_uarte.o(log_const_data)
+    log_const_data                           0x00004160   Section        8  app_button.o(log_const_data)
+    __tagsym$$used                           0x00004160   Number         0  app_button.o(log_const_data)
+    log_const_data                           0x00004168   Section        8  app_timer2.o(log_const_data)
+    __tagsym$$used                           0x00004168   Number         0  app_timer2.o(log_const_data)
+    log_const_data                           0x00004170   Section        8  nrf_sortlist.o(log_const_data)
+    __tagsym$$used                           0x00004170   Number         0  nrf_sortlist.o(log_const_data)
+    log_const_data                           0x00004178   Section        8  nrf_log_frontend.o(log_const_data)
+    __tagsym$$used                           0x00004178   Number         0  nrf_log_frontend.o(log_const_data)
+    nrf_balloc                               0x00004180   Section       20  nrf_log_frontend.o(nrf_balloc)
+    __tagsym$$used                           0x00004180   Number         0  nrf_log_frontend.o(nrf_balloc)
     .data                                    0x20000000   Section        8  main.o(.data)
     .data                                    0x20000008   Section       12  nrf_drv_uart.o(.data)
     m_handlers                               0x2000000c   Data           4  nrf_drv_uart.o(.data)
@@ -2051,82 +2051,82 @@ Image Symbol Table
     calculate_target_avcc                    0x00001465   Thumb Code    98  nrf5_ade9153a.o(i.calculate_target_avcc)
     calculate_target_powCC                   0x000014e5   Thumb Code    36  nrf5_ade9153a.o(i.calculate_target_powCC)
     init_spiADE9153                          0x00001535   Thumb Code    70  nrf5_ade9153a.o(i.init_spiADE9153)
-    main                                     0x0000178d   Thumb Code  2058  main.o(i.main)
-    nrf_atomic_flag_clear_fetch              0x00002159   Thumb Code     6  nrf_atomic.o(i.nrf_atomic_flag_clear_fetch)
-    nrf_atomic_flag_set                      0x0000215f   Thumb Code     6  nrf_atomic.o(i.nrf_atomic_flag_set)
-    nrf_atomic_u32_add                       0x00002165   Thumb Code    12  nrf_atomic.o(i.nrf_atomic_u32_add)
-    nrf_atomic_u32_fetch_and                 0x00002171   Thumb Code    10  nrf_atomic.o(i.nrf_atomic_u32_fetch_and)
-    nrf_atomic_u32_fetch_store               0x0000217b   Thumb Code    10  nrf_atomic.o(i.nrf_atomic_u32_fetch_store)
-    nrf_atomic_u32_or                        0x00002185   Thumb Code    12  nrf_atomic.o(i.nrf_atomic_u32_or)
-    nrf_atomic_u32_sub                       0x00002191   Thumb Code    12  nrf_atomic.o(i.nrf_atomic_u32_sub)
-    nrf_balloc_alloc                         0x0000219d   Thumb Code    62  nrf_balloc.o(i.nrf_balloc_alloc)
-    nrf_balloc_free                          0x000021db   Thumb Code    42  nrf_balloc.o(i.nrf_balloc_free)
-    nrf_balloc_init                          0x00002205   Thumb Code    48  nrf_balloc.o(i.nrf_balloc_init)
-    nrf_drv_spi_init                         0x00002285   Thumb Code    98  nrf_drv_spi.o(i.nrf_drv_spi_init)
-    nrf_drv_uart_init                        0x0000230d   Thumb Code    90  nrf_drv_uart.o(i.nrf_drv_uart_init)
-    nrf_fprintf                              0x00002375   Thumb Code    26  nrf_fprintf.o(i.nrf_fprintf)
-    nrf_fprintf_buffer_flush                 0x0000238f   Thumb Code    24  nrf_fprintf.o(i.nrf_fprintf_buffer_flush)
-    nrf_fprintf_fmt                          0x000023a7   Thumb Code   474  nrf_fprintf_format.o(i.nrf_fprintf_fmt)
-    nrf_log_backend_add                      0x0000273d   Thumb Code    86  nrf_log_frontend.o(i.nrf_log_backend_add)
-    nrf_log_backend_serial_put               0x00002799   Thumb Code   200  nrf_log_backend_serial.o(i.nrf_log_backend_serial_put)
-    nrf_log_backend_uart_init                0x00002863   Thumb Code     6  nrf_log_backend_uart.o(i.nrf_log_backend_uart_init)
-    nrf_log_color_id_get                     0x000028ad   Thumb Code    42  nrf_log_frontend.o(i.nrf_log_color_id_get)
-    nrf_log_default_backends_init            0x000028dd   Thumb Code    24  nrf_log_default_backends.o(i.nrf_log_default_backends_init)
-    nrf_log_frontend_dequeue                 0x000028f9   Thumb Code   522  nrf_log_frontend.o(i.nrf_log_frontend_dequeue)
-    nrf_log_frontend_std_0                   0x00002b2d   Thumb Code     8  nrf_log_frontend.o(i.nrf_log_frontend_std_0)
-    nrf_log_frontend_std_1                   0x00002b35   Thumb Code    14  nrf_log_frontend.o(i.nrf_log_frontend_std_1)
-    nrf_log_frontend_std_2                   0x00002b43   Thumb Code    16  nrf_log_frontend.o(i.nrf_log_frontend_std_2)
-    nrf_log_frontend_std_3                   0x00002b53   Thumb Code    18  nrf_log_frontend.o(i.nrf_log_frontend_std_3)
-    nrf_log_frontend_std_4                   0x00002b65   Thumb Code    20  nrf_log_frontend.o(i.nrf_log_frontend_std_4)
-    nrf_log_hexdump_entry_process            0x00002b79   Thumb Code   150  nrf_log_str_formatter.o(i.nrf_log_hexdump_entry_process)
-    nrf_log_init                             0x00002c29   Thumb Code    28  nrf_log_frontend.o(i.nrf_log_init)
-    nrf_log_module_cnt_get                   0x00002c51   Thumb Code    10  nrf_log_frontend.o(i.nrf_log_module_cnt_get)
-    nrf_log_module_name_get                  0x00002c65   Thumb Code    24  nrf_log_frontend.o(i.nrf_log_module_name_get)
-    nrf_log_panic                            0x00002c81   Thumb Code    36  nrf_log_frontend.o(i.nrf_log_panic)
-    nrf_log_std_entry_process                0x00002ca9   Thumb Code   182  nrf_log_str_formatter.o(i.nrf_log_std_entry_process)
-    nrf_memobj_alloc                         0x00002d5f   Thumb Code    96  nrf_memobj.o(i.nrf_memobj_alloc)
-    nrf_memobj_free                          0x00002dbf   Thumb Code    50  nrf_memobj.o(i.nrf_memobj_free)
-    nrf_memobj_get                           0x00002df1   Thumb Code     8  nrf_memobj.o(i.nrf_memobj_get)
-    nrf_memobj_pool_init                     0x00002df9   Thumb Code     4  nrf_memobj.o(i.nrf_memobj_pool_init)
-    nrf_memobj_put                           0x00002dfd   Thumb Code    30  nrf_memobj.o(i.nrf_memobj_put)
-    nrf_memobj_read                          0x00002e1b   Thumb Code    16  nrf_memobj.o(i.nrf_memobj_read)
-    nrf_memobj_write                         0x00002e2b   Thumb Code    16  nrf_memobj.o(i.nrf_memobj_write)
-    nrf_ringbuf_init                         0x00002e3b   Thumb Code    28  nrf_ringbuf.o(i.nrf_ringbuf_init)
-    nrfx_prs_acquire                         0x00002eb9   Thumb Code    48  nrfx_prs.o(i.nrfx_prs_acquire)
-    nrfx_prs_release                         0x00002ee9   Thumb Code    18  nrfx_prs.o(i.nrfx_prs_release)
-    nrfx_spim_init                           0x00002efd   Thumb Code   356  nrfx_spim.o(i.nrfx_spim_init)
-    nrfx_spim_xfer                           0x00003069   Thumb Code    94  nrfx_spim.o(i.nrfx_spim_xfer)
-    nrfx_uart_0_irq_handler                  0x000030cd   Thumb Code     8  nrfx_uart.o(i.nrfx_uart_0_irq_handler)
-    nrfx_uart_init                           0x000030dd   Thumb Code   200  nrfx_uart.o(i.nrfx_uart_init)
-    nrfx_uart_tx                             0x000031b1   Thumb Code   162  nrfx_uart.o(i.nrfx_uart_tx)
-    nrfx_uart_tx_in_progress                 0x00003259   Thumb Code    26  nrfx_uart.o(i.nrfx_uart_tx_in_progress)
-    nrfx_uart_uninit                         0x00003279   Thumb Code   182  nrfx_uart.o(i.nrfx_uart_uninit)
-    nrfx_uarte_0_irq_handler                 0x00003339   Thumb Code     8  nrfx_uarte.o(i.nrfx_uarte_0_irq_handler)
-    nrfx_uarte_init                          0x00003349   Thumb Code   100  nrfx_uarte.o(i.nrfx_uarte_init)
-    nrfx_uarte_tx                            0x000033b5   Thumb Code   166  nrfx_uarte.o(i.nrfx_uarte_tx)
-    nrfx_uarte_tx_in_progress                0x00003461   Thumb Code    22  nrfx_uarte.o(i.nrfx_uarte_tx_in_progress)
-    nrfx_uarte_uninit                        0x0000347d   Thumb Code   254  nrfx_uarte.o(i.nrfx_uarte_uninit)
-    spi_event_handler                        0x000037d5   Thumb Code     8  nrf5_ade9153a.o(i.spi_event_handler)
-    spi_read16                               0x000037e1   Thumb Code    70  nrf5_ade9153a.o(i.spi_read16)
-    spi_read32                               0x00003831   Thumb Code    90  nrf5_ade9153a.o(i.spi_read32)
-    spi_write16                              0x00003895   Thumb Code    70  nrf5_ade9153a.o(i.spi_write16)
-    spi_write32                              0x000038e5   Thumb Code    88  nrf5_ade9153a.o(i.spi_write32)
-    nrf_log_backend_uart_api                 0x00003f10   Data          12  nrf_log_backend_uart.o(.constdata)
-    __ctype_table                            0x00003f78   Data         129  ctype_o.o(.constdata)
-    Region$$Table$$Base                      0x000040c8   Number         0  anon$$obj.o(Region$$Table)
-    Region$$Table$$Limit                     0x000040e8   Number         0  anon$$obj.o(Region$$Table)
-    log_const_data$$Base                     0x000040f8   Number         0  nrfx_gpiote.o(log_const_data)
-    m_nrf_log_GPIOTE_logs_data_const         0x000040f8   Data           8  nrfx_gpiote.o(log_const_data)
-    m_nrf_log_PRS_logs_data_const            0x00004100   Data           8  nrfx_prs.o(log_const_data)
-    m_nrf_log_SPIM_logs_data_const           0x00004108   Data           8  nrfx_spim.o(log_const_data)
-    m_nrf_log_UART_logs_data_const           0x00004110   Data           8  nrfx_uart.o(log_const_data)
-    m_nrf_log_UARTE_logs_data_const          0x00004118   Data           8  nrfx_uarte.o(log_const_data)
-    m_nrf_log_app_button_logs_data_const     0x00004120   Data           8  app_button.o(log_const_data)
-    m_nrf_log_app_timer_logs_data_const      0x00004128   Data           8  app_timer2.o(log_const_data)
-    m_nrf_log_sortlist_logs_data_const       0x00004130   Data           8  nrf_sortlist.o(log_const_data)
-    m_nrf_log_app_logs_data_const            0x00004138   Data           8  nrf_log_frontend.o(log_const_data)
-    log_const_data$$Limit                    0x00004140   Number         0  nrf_log_frontend.o(log_const_data)
-    log_mempool                              0x00004140   Data          20  nrf_log_frontend.o(nrf_balloc)
+    main                                     0x0000178d   Thumb Code  2124  main.o(i.main)
+    nrf_atomic_flag_clear_fetch              0x00002199   Thumb Code     6  nrf_atomic.o(i.nrf_atomic_flag_clear_fetch)
+    nrf_atomic_flag_set                      0x0000219f   Thumb Code     6  nrf_atomic.o(i.nrf_atomic_flag_set)
+    nrf_atomic_u32_add                       0x000021a5   Thumb Code    12  nrf_atomic.o(i.nrf_atomic_u32_add)
+    nrf_atomic_u32_fetch_and                 0x000021b1   Thumb Code    10  nrf_atomic.o(i.nrf_atomic_u32_fetch_and)
+    nrf_atomic_u32_fetch_store               0x000021bb   Thumb Code    10  nrf_atomic.o(i.nrf_atomic_u32_fetch_store)
+    nrf_atomic_u32_or                        0x000021c5   Thumb Code    12  nrf_atomic.o(i.nrf_atomic_u32_or)
+    nrf_atomic_u32_sub                       0x000021d1   Thumb Code    12  nrf_atomic.o(i.nrf_atomic_u32_sub)
+    nrf_balloc_alloc                         0x000021dd   Thumb Code    62  nrf_balloc.o(i.nrf_balloc_alloc)
+    nrf_balloc_free                          0x0000221b   Thumb Code    42  nrf_balloc.o(i.nrf_balloc_free)
+    nrf_balloc_init                          0x00002245   Thumb Code    48  nrf_balloc.o(i.nrf_balloc_init)
+    nrf_drv_spi_init                         0x000022c5   Thumb Code    98  nrf_drv_spi.o(i.nrf_drv_spi_init)
+    nrf_drv_uart_init                        0x0000234d   Thumb Code    90  nrf_drv_uart.o(i.nrf_drv_uart_init)
+    nrf_fprintf                              0x000023b5   Thumb Code    26  nrf_fprintf.o(i.nrf_fprintf)
+    nrf_fprintf_buffer_flush                 0x000023cf   Thumb Code    24  nrf_fprintf.o(i.nrf_fprintf_buffer_flush)
+    nrf_fprintf_fmt                          0x000023e7   Thumb Code   474  nrf_fprintf_format.o(i.nrf_fprintf_fmt)
+    nrf_log_backend_add                      0x0000277d   Thumb Code    86  nrf_log_frontend.o(i.nrf_log_backend_add)
+    nrf_log_backend_serial_put               0x000027d9   Thumb Code   200  nrf_log_backend_serial.o(i.nrf_log_backend_serial_put)
+    nrf_log_backend_uart_init                0x000028a3   Thumb Code     6  nrf_log_backend_uart.o(i.nrf_log_backend_uart_init)
+    nrf_log_color_id_get                     0x000028ed   Thumb Code    42  nrf_log_frontend.o(i.nrf_log_color_id_get)
+    nrf_log_default_backends_init            0x0000291d   Thumb Code    24  nrf_log_default_backends.o(i.nrf_log_default_backends_init)
+    nrf_log_frontend_dequeue                 0x00002939   Thumb Code   522  nrf_log_frontend.o(i.nrf_log_frontend_dequeue)
+    nrf_log_frontend_std_0                   0x00002b6d   Thumb Code     8  nrf_log_frontend.o(i.nrf_log_frontend_std_0)
+    nrf_log_frontend_std_1                   0x00002b75   Thumb Code    14  nrf_log_frontend.o(i.nrf_log_frontend_std_1)
+    nrf_log_frontend_std_2                   0x00002b83   Thumb Code    16  nrf_log_frontend.o(i.nrf_log_frontend_std_2)
+    nrf_log_frontend_std_3                   0x00002b93   Thumb Code    18  nrf_log_frontend.o(i.nrf_log_frontend_std_3)
+    nrf_log_frontend_std_4                   0x00002ba5   Thumb Code    20  nrf_log_frontend.o(i.nrf_log_frontend_std_4)
+    nrf_log_hexdump_entry_process            0x00002bb9   Thumb Code   150  nrf_log_str_formatter.o(i.nrf_log_hexdump_entry_process)
+    nrf_log_init                             0x00002c69   Thumb Code    28  nrf_log_frontend.o(i.nrf_log_init)
+    nrf_log_module_cnt_get                   0x00002c91   Thumb Code    10  nrf_log_frontend.o(i.nrf_log_module_cnt_get)
+    nrf_log_module_name_get                  0x00002ca5   Thumb Code    24  nrf_log_frontend.o(i.nrf_log_module_name_get)
+    nrf_log_panic                            0x00002cc1   Thumb Code    36  nrf_log_frontend.o(i.nrf_log_panic)
+    nrf_log_std_entry_process                0x00002ce9   Thumb Code   182  nrf_log_str_formatter.o(i.nrf_log_std_entry_process)
+    nrf_memobj_alloc                         0x00002d9f   Thumb Code    96  nrf_memobj.o(i.nrf_memobj_alloc)
+    nrf_memobj_free                          0x00002dff   Thumb Code    50  nrf_memobj.o(i.nrf_memobj_free)
+    nrf_memobj_get                           0x00002e31   Thumb Code     8  nrf_memobj.o(i.nrf_memobj_get)
+    nrf_memobj_pool_init                     0x00002e39   Thumb Code     4  nrf_memobj.o(i.nrf_memobj_pool_init)
+    nrf_memobj_put                           0x00002e3d   Thumb Code    30  nrf_memobj.o(i.nrf_memobj_put)
+    nrf_memobj_read                          0x00002e5b   Thumb Code    16  nrf_memobj.o(i.nrf_memobj_read)
+    nrf_memobj_write                         0x00002e6b   Thumb Code    16  nrf_memobj.o(i.nrf_memobj_write)
+    nrf_ringbuf_init                         0x00002e7b   Thumb Code    28  nrf_ringbuf.o(i.nrf_ringbuf_init)
+    nrfx_prs_acquire                         0x00002ef9   Thumb Code    48  nrfx_prs.o(i.nrfx_prs_acquire)
+    nrfx_prs_release                         0x00002f29   Thumb Code    18  nrfx_prs.o(i.nrfx_prs_release)
+    nrfx_spim_init                           0x00002f3d   Thumb Code   356  nrfx_spim.o(i.nrfx_spim_init)
+    nrfx_spim_xfer                           0x000030a9   Thumb Code    94  nrfx_spim.o(i.nrfx_spim_xfer)
+    nrfx_uart_0_irq_handler                  0x0000310d   Thumb Code     8  nrfx_uart.o(i.nrfx_uart_0_irq_handler)
+    nrfx_uart_init                           0x0000311d   Thumb Code   200  nrfx_uart.o(i.nrfx_uart_init)
+    nrfx_uart_tx                             0x000031f1   Thumb Code   162  nrfx_uart.o(i.nrfx_uart_tx)
+    nrfx_uart_tx_in_progress                 0x00003299   Thumb Code    26  nrfx_uart.o(i.nrfx_uart_tx_in_progress)
+    nrfx_uart_uninit                         0x000032b9   Thumb Code   182  nrfx_uart.o(i.nrfx_uart_uninit)
+    nrfx_uarte_0_irq_handler                 0x00003379   Thumb Code     8  nrfx_uarte.o(i.nrfx_uarte_0_irq_handler)
+    nrfx_uarte_init                          0x00003389   Thumb Code   100  nrfx_uarte.o(i.nrfx_uarte_init)
+    nrfx_uarte_tx                            0x000033f5   Thumb Code   166  nrfx_uarte.o(i.nrfx_uarte_tx)
+    nrfx_uarte_tx_in_progress                0x000034a1   Thumb Code    22  nrfx_uarte.o(i.nrfx_uarte_tx_in_progress)
+    nrfx_uarte_uninit                        0x000034bd   Thumb Code   254  nrfx_uarte.o(i.nrfx_uarte_uninit)
+    spi_event_handler                        0x00003815   Thumb Code     8  nrf5_ade9153a.o(i.spi_event_handler)
+    spi_read16                               0x00003821   Thumb Code    70  nrf5_ade9153a.o(i.spi_read16)
+    spi_read32                               0x00003871   Thumb Code    90  nrf5_ade9153a.o(i.spi_read32)
+    spi_write16                              0x000038d5   Thumb Code    70  nrf5_ade9153a.o(i.spi_write16)
+    spi_write32                              0x00003925   Thumb Code    88  nrf5_ade9153a.o(i.spi_write32)
+    nrf_log_backend_uart_api                 0x00003f50   Data          12  nrf_log_backend_uart.o(.constdata)
+    __ctype_table                            0x00003fb8   Data         129  ctype_o.o(.constdata)
+    Region$$Table$$Base                      0x00004108   Number         0  anon$$obj.o(Region$$Table)
+    Region$$Table$$Limit                     0x00004128   Number         0  anon$$obj.o(Region$$Table)
+    log_const_data$$Base                     0x00004138   Number         0  nrfx_gpiote.o(log_const_data)
+    m_nrf_log_GPIOTE_logs_data_const         0x00004138   Data           8  nrfx_gpiote.o(log_const_data)
+    m_nrf_log_PRS_logs_data_const            0x00004140   Data           8  nrfx_prs.o(log_const_data)
+    m_nrf_log_SPIM_logs_data_const           0x00004148   Data           8  nrfx_spim.o(log_const_data)
+    m_nrf_log_UART_logs_data_const           0x00004150   Data           8  nrfx_uart.o(log_const_data)
+    m_nrf_log_UARTE_logs_data_const          0x00004158   Data           8  nrfx_uarte.o(log_const_data)
+    m_nrf_log_app_button_logs_data_const     0x00004160   Data           8  app_button.o(log_const_data)
+    m_nrf_log_app_timer_logs_data_const      0x00004168   Data           8  app_timer2.o(log_const_data)
+    m_nrf_log_sortlist_logs_data_const       0x00004170   Data           8  nrf_sortlist.o(log_const_data)
+    m_nrf_log_app_logs_data_const            0x00004178   Data           8  nrf_log_frontend.o(log_const_data)
+    log_const_data$$Limit                    0x00004180   Number         0  nrf_log_frontend.o(log_const_data)
+    log_mempool                              0x00004180   Data          20  nrf_log_frontend.o(nrf_balloc)
     ADE_acal                                 0x20000000   Data           1  main.o(.data)
     checkADE                                 0x20000001   Data           1  main.o(.data)
     pVHeadRoom                               0x20000004   Data           4  main.o(.data)
@@ -2147,9 +2147,9 @@ Memory Map of the image
 
   Image Entry point : 0x00000201
 
-  Load Region LR_IROM1 (Base: 0x00000000, Size: 0x000041fc, Max: 0x00080000, ABSOLUTE)
+  Load Region LR_IROM1 (Base: 0x00000000, Size: 0x0000423c, Max: 0x00080000, ABSOLUTE)
 
-    Execution Region ER_IROM1 (Exec base: 0x00000000, Load base: 0x00000000, Size: 0x00004154, Max: 0x00080000, ABSOLUTE)
+    Execution Region ER_IROM1 (Exec base: 0x00000000, Load base: 0x00000000, Size: 0x00004194, Max: 0x00080000, ABSOLUTE)
 
     Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
 
@@ -2230,200 +2230,200 @@ Memory Map of the image
     0x0000162c   0x0000162c   0x00000088   Code   RO         1403    i.interrupts_enable  nrfx_uarte.o
     0x000016b4   0x000016b4   0x00000034   Code   RO         2956    i.invalid_packets_omit  nrf_log_frontend.o
     0x000016e8   0x000016e8   0x000000a4   Code   RO         2957    i.log_skip          nrf_log_frontend.o
-    0x0000178c   0x0000178c   0x0000091c   Code   RO            4    i.main              main.o
-    0x000020a8   0x000020a8   0x0000007e   Code   RO         2556    i.memobj_op         nrf_memobj.o
-    0x00002126   0x00002126   0x00000002   PAD
-    0x00002128   0x00002128   0x00000030   Code   RO         2958    i.module_idx_get    nrf_log_frontend.o
-    0x00002158   0x00002158   0x00000006   Code   RO         2303    i.nrf_atomic_flag_clear_fetch  nrf_atomic.o
-    0x0000215e   0x0000215e   0x00000006   Code   RO         2304    i.nrf_atomic_flag_set  nrf_atomic.o
-    0x00002164   0x00002164   0x0000000c   Code   RO         2306    i.nrf_atomic_u32_add  nrf_atomic.o
-    0x00002170   0x00002170   0x0000000a   Code   RO         2310    i.nrf_atomic_u32_fetch_and  nrf_atomic.o
-    0x0000217a   0x0000217a   0x0000000a   Code   RO         2312    i.nrf_atomic_u32_fetch_store  nrf_atomic.o
-    0x00002184   0x00002184   0x0000000c   Code   RO         2316    i.nrf_atomic_u32_or  nrf_atomic.o
-    0x00002190   0x00002190   0x0000000c   Code   RO         2318    i.nrf_atomic_u32_sub  nrf_atomic.o
-    0x0000219c   0x0000219c   0x0000003e   Code   RO         2440    i.nrf_balloc_alloc  nrf_balloc.o
-    0x000021da   0x000021da   0x0000002a   Code   RO         2441    i.nrf_balloc_free   nrf_balloc.o
-    0x00002204   0x00002204   0x00000030   Code   RO         2442    i.nrf_balloc_init   nrf_balloc.o
-    0x00002234   0x00002234   0x00000010   Code   RO          708    i.nrf_bitmask_bit_is_set  nrfx_gpiote.o
-    0x00002244   0x00002244   0x00000020   Code   RO            5    i.nrf_delay_ms      main.o
-    0x00002264   0x00002264   0x00000020   Code   RO         3690    i.nrf_delay_ms      nrf5_ade9153a.o
-    0x00002284   0x00002284   0x00000070   Code   RO          478    i.nrf_drv_spi_init  nrf_drv_spi.o
-    0x000022f4   0x000022f4   0x00000016   Code   RO         3691    i.nrf_drv_spi_transfer  nrf5_ade9153a.o
-    0x0000230a   0x0000230a   0x00000002   PAD
-    0x0000230c   0x0000230c   0x00000068   Code   RO          513    i.nrf_drv_uart_init  nrf_drv_uart.o
-    0x00002374   0x00002374   0x0000001a   Code   RO         2477    i.nrf_fprintf       nrf_fprintf.o
-    0x0000238e   0x0000238e   0x00000018   Code   RO         2478    i.nrf_fprintf_buffer_flush  nrf_fprintf.o
-    0x000023a6   0x000023a6   0x000001da   Code   RO         2518    i.nrf_fprintf_fmt   nrf_fprintf_format.o
-    0x00002580   0x00002580   0x00000024   Code   RO          258    i.nrf_gpio_cfg      boards.o
-    0x000025a4   0x000025a4   0x00000024   Code   RO         1091    i.nrf_gpio_cfg      nrfx_spim.o
-    0x000025c8   0x000025c8   0x00000024   Code   RO         1221    i.nrf_gpio_cfg      nrfx_uart.o
-    0x000025ec   0x000025ec   0x00000024   Code   RO         1404    i.nrf_gpio_cfg      nrfx_uarte.o
-    0x00002610   0x00002610   0x00000012   Code   RO         1222    i.nrf_gpio_cfg_default  nrfx_uart.o
-    0x00002622   0x00002622   0x00000012   Code   RO         1405    i.nrf_gpio_cfg_default  nrfx_uarte.o
-    0x00002634   0x00002634   0x00000012   Code   RO         1223    i.nrf_gpio_cfg_input  nrfx_uart.o
-    0x00002646   0x00002646   0x00000012   Code   RO         1406    i.nrf_gpio_cfg_input  nrfx_uarte.o
-    0x00002658   0x00002658   0x00000014   Code   RO         1092    i.nrf_gpio_cfg_output  nrfx_spim.o
-    0x0000266c   0x0000266c   0x00000014   Code   RO         1224    i.nrf_gpio_cfg_output  nrfx_uart.o
-    0x00002680   0x00002680   0x00000014   Code   RO         1407    i.nrf_gpio_cfg_output  nrfx_uarte.o
-    0x00002694   0x00002694   0x00000022   Code   RO          711    i.nrf_gpio_cfg_sense_set  nrfx_gpiote.o
-    0x000026b6   0x000026b6   0x00000002   PAD
-    0x000026b8   0x000026b8   0x0000002c   Code   RO          712    i.nrf_gpio_latches_read_and_clear  nrfx_gpiote.o
-    0x000026e4   0x000026e4   0x0000000e   Code   RO         1093    i.nrf_gpio_pin_clear  nrfx_spim.o
-    0x000026f2   0x000026f2   0x0000000e   Code   RO         1094    i.nrf_gpio_pin_set  nrfx_spim.o
-    0x00002700   0x00002700   0x00000016   Code   RO          259    i.nrf_gpio_pin_write  boards.o
-    0x00002716   0x00002716   0x00000002   PAD
-    0x00002718   0x00002718   0x00000014   Code   RO          714    i.nrf_gpiote_event_clear  nrfx_gpiote.o
-    0x0000272c   0x0000272c   0x00000010   Code   RO          715    i.nrf_gpiote_event_is_set  nrfx_gpiote.o
-    0x0000273c   0x0000273c   0x0000005c   Code   RO         2959    i.nrf_log_backend_add  nrf_log_frontend.o
-    0x00002798   0x00002798   0x000000c8   Code   RO         2804    i.nrf_log_backend_serial_put  nrf_log_backend_serial.o
-    0x00002860   0x00002860   0x00000002   Code   RO         2844    i.nrf_log_backend_uart_flush  nrf_log_backend_uart.o
-    0x00002862   0x00002862   0x00000006   Code   RO         2845    i.nrf_log_backend_uart_init  nrf_log_backend_uart.o
-    0x00002868   0x00002868   0x0000002c   Code   RO         2846    i.nrf_log_backend_uart_panic_set  nrf_log_backend_uart.o
-    0x00002894   0x00002894   0x00000018   Code   RO         2847    i.nrf_log_backend_uart_put  nrf_log_backend_uart.o
-    0x000028ac   0x000028ac   0x00000030   Code   RO         2961    i.nrf_log_color_id_get  nrf_log_frontend.o
-    0x000028dc   0x000028dc   0x0000001c   Code   RO         2917    i.nrf_log_default_backends_init  nrf_log_default_backends.o
-    0x000028f8   0x000028f8   0x00000234   Code   RO         2962    i.nrf_log_frontend_dequeue  nrf_log_frontend.o
-    0x00002b2c   0x00002b2c   0x00000008   Code   RO         2964    i.nrf_log_frontend_std_0  nrf_log_frontend.o
-    0x00002b34   0x00002b34   0x0000000e   Code   RO         2965    i.nrf_log_frontend_std_1  nrf_log_frontend.o
-    0x00002b42   0x00002b42   0x00000010   Code   RO         2966    i.nrf_log_frontend_std_2  nrf_log_frontend.o
-    0x00002b52   0x00002b52   0x00000012   Code   RO         2967    i.nrf_log_frontend_std_3  nrf_log_frontend.o
-    0x00002b64   0x00002b64   0x00000014   Code   RO         2968    i.nrf_log_frontend_std_4  nrf_log_frontend.o
-    0x00002b78   0x00002b78   0x000000b0   Code   RO         3140    i.nrf_log_hexdump_entry_process  nrf_log_str_formatter.o
-    0x00002c28   0x00002c28   0x00000028   Code   RO         2971    i.nrf_log_init      nrf_log_frontend.o
-    0x00002c50   0x00002c50   0x00000014   Code   RO         2972    i.nrf_log_module_cnt_get  nrf_log_frontend.o
-    0x00002c64   0x00002c64   0x0000001c   Code   RO         2975    i.nrf_log_module_name_get  nrf_log_frontend.o
-    0x00002c80   0x00002c80   0x00000028   Code   RO         2976    i.nrf_log_panic     nrf_log_frontend.o
-    0x00002ca8   0x00002ca8   0x000000b6   Code   RO         3141    i.nrf_log_std_entry_process  nrf_log_str_formatter.o
-    0x00002d5e   0x00002d5e   0x00000060   Code   RO         2557    i.nrf_memobj_alloc  nrf_memobj.o
-    0x00002dbe   0x00002dbe   0x00000032   Code   RO         2558    i.nrf_memobj_free   nrf_memobj.o
-    0x00002df0   0x00002df0   0x00000008   Code   RO         2559    i.nrf_memobj_get    nrf_memobj.o
-    0x00002df8   0x00002df8   0x00000004   Code   RO         2560    i.nrf_memobj_pool_init  nrf_memobj.o
-    0x00002dfc   0x00002dfc   0x0000001e   Code   RO         2561    i.nrf_memobj_put    nrf_memobj.o
-    0x00002e1a   0x00002e1a   0x00000010   Code   RO         2562    i.nrf_memobj_read   nrf_memobj.o
-    0x00002e2a   0x00002e2a   0x00000010   Code   RO         2563    i.nrf_memobj_write  nrf_memobj.o
-    0x00002e3a   0x00002e3a   0x0000001c   Code   RO         2639    i.nrf_ringbuf_init  nrf_ringbuf.o
-    0x00002e56   0x00002e56   0x0000000a   Code   RO         1095    i.nrf_spim_event_check  nrfx_spim.o
-    0x00002e60   0x00002e60   0x0000000a   Code   RO         1225    i.nrf_uart_event_check  nrfx_uart.o
-    0x00002e6a   0x00002e6a   0x0000000c   Code   RO         1226    i.nrf_uart_event_clear  nrfx_uart.o
-    0x00002e76   0x00002e76   0x0000000c   Code   RO         1227    i.nrf_uart_int_enable_check  nrfx_uart.o
-    0x00002e82   0x00002e82   0x0000000a   Code   RO         1408    i.nrf_uarte_event_check  nrfx_uarte.o
-    0x00002e8c   0x00002e8c   0x0000000c   Code   RO         1409    i.nrf_uarte_event_clear  nrfx_uarte.o
-    0x00002e98   0x00002e98   0x00000010   Code   RO         1096    i.nrfx_is_in_ram    nrfx_spim.o
-    0x00002ea8   0x00002ea8   0x00000010   Code   RO         1410    i.nrfx_is_in_ram    nrfx_uarte.o
-    0x00002eb8   0x00002eb8   0x00000030   Code   RO         1019    i.nrfx_prs_acquire  nrfx_prs.o
-    0x00002ee8   0x00002ee8   0x00000012   Code   RO         1020    i.nrfx_prs_release  nrfx_prs.o
-    0x00002efa   0x00002efa   0x00000002   PAD
-    0x00002efc   0x00002efc   0x0000016c   Code   RO         1099    i.nrfx_spim_init    nrfx_spim.o
-    0x00003068   0x00003068   0x00000064   Code   RO         1102    i.nrfx_spim_xfer    nrfx_spim.o
-    0x000030cc   0x000030cc   0x00000010   Code   RO         1228    i.nrfx_uart_0_irq_handler  nrfx_uart.o
-    0x000030dc   0x000030dc   0x000000d4   Code   RO         1230    i.nrfx_uart_init    nrfx_uart.o
-    0x000031b0   0x000031b0   0x000000a8   Code   RO         1236    i.nrfx_uart_tx      nrfx_uart.o
-    0x00003258   0x00003258   0x00000020   Code   RO         1238    i.nrfx_uart_tx_in_progress  nrfx_uart.o
-    0x00003278   0x00003278   0x000000c0   Code   RO         1239    i.nrfx_uart_uninit  nrfx_uart.o
-    0x00003338   0x00003338   0x00000010   Code   RO         1411    i.nrfx_uarte_0_irq_handler  nrfx_uarte.o
-    0x00003348   0x00003348   0x0000006c   Code   RO         1413    i.nrfx_uarte_init   nrfx_uarte.o
-    0x000033b4   0x000033b4   0x000000ac   Code   RO         1417    i.nrfx_uarte_tx     nrfx_uarte.o
-    0x00003460   0x00003460   0x0000001c   Code   RO         1419    i.nrfx_uarte_tx_in_progress  nrfx_uarte.o
-    0x0000347c   0x0000347c   0x00000108   Code   RO         1420    i.nrfx_uarte_uninit  nrfx_uarte.o
-    0x00003584   0x00003584   0x000000b4   Code   RO          748    i.port_event_handle  nrfx_gpiote.o
-    0x00003638   0x00003638   0x00000010   Code   RO          749    i.port_handler_polarity_get  nrfx_gpiote.o
-    0x00003648   0x00003648   0x0000003c   Code   RO         3143    i.postfix_process   nrf_log_str_formatter.o
-    0x00003684   0x00003684   0x00000098   Code   RO         3144    i.prefix_process    nrf_log_str_formatter.o
-    0x0000371c   0x0000371c   0x00000018   Code   RO         1021    i.prs_box_get       nrfx_prs.o
-    0x00003734   0x00003734   0x00000032   Code   RO         1240    i.rx_byte           nrfx_uart.o
-    0x00003766   0x00003766   0x00000016   Code   RO         1241    i.rx_done_event     nrfx_uart.o
-    0x0000377c   0x0000377c   0x00000016   Code   RO         1421    i.rx_done_event     nrfx_uarte.o
-    0x00003792   0x00003792   0x00000002   PAD
-    0x00003794   0x00003794   0x00000040   Code   RO         2848    i.serial_tx         nrf_log_backend_uart.o
-    0x000037d4   0x000037d4   0x0000000c   Code   RO         3692    i.spi_event_handler  nrf5_ade9153a.o
-    0x000037e0   0x000037e0   0x00000050   Code   RO         3693    i.spi_read16        nrf5_ade9153a.o
-    0x00003830   0x00003830   0x00000064   Code   RO         3694    i.spi_read32        nrf5_ade9153a.o
-    0x00003894   0x00003894   0x00000050   Code   RO         3695    i.spi_write16       nrf5_ade9153a.o
-    0x000038e4   0x000038e4   0x00000060   Code   RO         3696    i.spi_write32       nrf5_ade9153a.o
-    0x00003944   0x00003944   0x00000038   Code   RO          479    i.spim_evt_handler  nrf_drv_spi.o
-    0x0000397c   0x0000397c   0x000000bc   Code   RO         1103    i.spim_xfer         nrfx_spim.o
-    0x00003a38   0x00003a38   0x00000094   Code   RO         2978    i.std_n             nrf_log_frontend.o
-    0x00003acc   0x00003acc   0x00000020   Code   RO         1243    i.tx_byte           nrfx_uart.o
-    0x00003aec   0x00003aec   0x0000001a   Code   RO         1244    i.tx_done_event     nrfx_uart.o
-    0x00003b06   0x00003b06   0x0000001a   Code   RO         1422    i.tx_done_event     nrfx_uarte.o
-    0x00003b20   0x00003b20   0x00000030   Code   RO          514    i.uart_evt_handler  nrf_drv_uart.o
-    0x00003b50   0x00003b50   0x0000000c   Code   RO         2849    i.uart_evt_handler  nrf_log_backend_uart.o
-    0x00003b5c   0x00003b5c   0x00000050   Code   RO         2850    i.uart_init         nrf_log_backend_uart.o
-    0x00003bac   0x00003bac   0x0000012a   Code   RO         1245    i.uart_irq_handler  nrfx_uart.o
-    0x00003cd6   0x00003cd6   0x00000002   PAD
-    0x00003cd8   0x00003cd8   0x00000030   Code   RO          515    i.uarte_evt_handler  nrf_drv_uart.o
-    0x00003d08   0x00003d08   0x00000112   Code   RO         1423    i.uarte_irq_handler  nrfx_uarte.o
-    0x00003e1a   0x00003e1a   0x00000002   PAD
-    0x00003e1c   0x00003e1c   0x000000b4   Code   RO         2519    i.unsigned_print    nrf_fprintf_format.o
-    0x00003ed0   0x00003ed0   0x00000006   Data   RO            7    .constdata          main.o
-    0x00003ed6   0x00003ed6   0x00000008   Data   RO          260    .constdata          boards.o
-    0x00003ede   0x00003ede   0x00000002   PAD
-    0x00003ee0   0x00003ee0   0x00000010   Data   RO          481    .constdata          nrf_drv_spi.o
-    0x00003ef0   0x00003ef0   0x00000004   Data   RO          751    .constdata          nrfx_gpiote.o
-    0x00003ef4   0x00003ef4   0x00000004   Data   RO         1106    .constdata          nrfx_spim.o
-    0x00003ef8   0x00003ef8   0x00000004   Data   RO         1248    .constdata          nrfx_uart.o
-    0x00003efc   0x00003efc   0x00000004   Data   RO         1426    .constdata          nrfx_uarte.o
-    0x00003f00   0x00003f00   0x00000010   Data   RO         2520    .constdata          nrf_fprintf_format.o
-    0x00003f10   0x00003f10   0x0000000c   Data   RO         2852    .constdata          nrf_log_backend_uart.o
-    0x00003f1c   0x00003f1c   0x00000020   Data   RO         2853    .constdata          nrf_log_backend_uart.o
-    0x00003f3c   0x00003f3c   0x0000000c   Data   RO         2983    .constdata          nrf_log_frontend.o
-    0x00003f48   0x00003f48   0x00000008   PAD
-    0x00003f50   0x00003f50   0x00000028   Data   RO         3697    .constdata          nrf5_ade9153a.o
-    0x00003f78   0x00003f78   0x00000081   Data   RO         3930    .constdata          mc_w.l(ctype_o.o)
-    0x00003ff9   0x00003ff9   0x00000003   PAD
-    0x00003ffc   0x00003ffc   0x00000004   Data   RO         3931    .constdata          mc_w.l(ctype_o.o)
-    0x00004000   0x00004000   0x00000066   Data   RO         3145    .conststring        nrf_log_str_formatter.o
-    0x00004066   0x00004066   0x00000002   PAD
-    0x00004068   0x00004068   0x00000007   Data   RO          755    .conststrlit        nrfx_gpiote.o
-    0x0000406f   0x0000406f   0x00000001   PAD
-    0x00004070   0x00004070   0x00000004   Data   RO         1023    .conststrlit        nrfx_prs.o
-    0x00004074   0x00004074   0x00000005   Data   RO         1109    .conststrlit        nrfx_spim.o
-    0x00004079   0x00004079   0x00000003   PAD
-    0x0000407c   0x0000407c   0x00000005   Data   RO         1251    .conststrlit        nrfx_uart.o
-    0x00004081   0x00004081   0x00000003   PAD
-    0x00004084   0x00004084   0x00000006   Data   RO         1429    .conststrlit        nrfx_uarte.o
-    0x0000408a   0x0000408a   0x00000002   PAD
-    0x0000408c   0x0000408c   0x0000000b   Data   RO         1573    .conststrlit        app_button.o
-    0x00004097   0x00004097   0x00000001   PAD
-    0x00004098   0x00004098   0x0000000a   Data   RO         1855    .conststrlit        app_timer2.o
-    0x000040a2   0x000040a2   0x00000002   PAD
-    0x000040a4   0x000040a4   0x00000009   Data   RO         2702    .conststrlit        nrf_sortlist.o
-    0x000040ad   0x000040ad   0x00000003   PAD
-    0x000040b0   0x000040b0   0x00000011   Data   RO         2918    .conststrlit        nrf_log_default_backends.o
+    0x0000178c   0x0000178c   0x0000095c   Code   RO            4    i.main              main.o
+    0x000020e8   0x000020e8   0x0000007e   Code   RO         2556    i.memobj_op         nrf_memobj.o
+    0x00002166   0x00002166   0x00000002   PAD
+    0x00002168   0x00002168   0x00000030   Code   RO         2958    i.module_idx_get    nrf_log_frontend.o
+    0x00002198   0x00002198   0x00000006   Code   RO         2303    i.nrf_atomic_flag_clear_fetch  nrf_atomic.o
+    0x0000219e   0x0000219e   0x00000006   Code   RO         2304    i.nrf_atomic_flag_set  nrf_atomic.o
+    0x000021a4   0x000021a4   0x0000000c   Code   RO         2306    i.nrf_atomic_u32_add  nrf_atomic.o
+    0x000021b0   0x000021b0   0x0000000a   Code   RO         2310    i.nrf_atomic_u32_fetch_and  nrf_atomic.o
+    0x000021ba   0x000021ba   0x0000000a   Code   RO         2312    i.nrf_atomic_u32_fetch_store  nrf_atomic.o
+    0x000021c4   0x000021c4   0x0000000c   Code   RO         2316    i.nrf_atomic_u32_or  nrf_atomic.o
+    0x000021d0   0x000021d0   0x0000000c   Code   RO         2318    i.nrf_atomic_u32_sub  nrf_atomic.o
+    0x000021dc   0x000021dc   0x0000003e   Code   RO         2440    i.nrf_balloc_alloc  nrf_balloc.o
+    0x0000221a   0x0000221a   0x0000002a   Code   RO         2441    i.nrf_balloc_free   nrf_balloc.o
+    0x00002244   0x00002244   0x00000030   Code   RO         2442    i.nrf_balloc_init   nrf_balloc.o
+    0x00002274   0x00002274   0x00000010   Code   RO          708    i.nrf_bitmask_bit_is_set  nrfx_gpiote.o
+    0x00002284   0x00002284   0x00000020   Code   RO            5    i.nrf_delay_ms      main.o
+    0x000022a4   0x000022a4   0x00000020   Code   RO         3690    i.nrf_delay_ms      nrf5_ade9153a.o
+    0x000022c4   0x000022c4   0x00000070   Code   RO          478    i.nrf_drv_spi_init  nrf_drv_spi.o
+    0x00002334   0x00002334   0x00000016   Code   RO         3691    i.nrf_drv_spi_transfer  nrf5_ade9153a.o
+    0x0000234a   0x0000234a   0x00000002   PAD
+    0x0000234c   0x0000234c   0x00000068   Code   RO          513    i.nrf_drv_uart_init  nrf_drv_uart.o
+    0x000023b4   0x000023b4   0x0000001a   Code   RO         2477    i.nrf_fprintf       nrf_fprintf.o
+    0x000023ce   0x000023ce   0x00000018   Code   RO         2478    i.nrf_fprintf_buffer_flush  nrf_fprintf.o
+    0x000023e6   0x000023e6   0x000001da   Code   RO         2518    i.nrf_fprintf_fmt   nrf_fprintf_format.o
+    0x000025c0   0x000025c0   0x00000024   Code   RO          258    i.nrf_gpio_cfg      boards.o
+    0x000025e4   0x000025e4   0x00000024   Code   RO         1091    i.nrf_gpio_cfg      nrfx_spim.o
+    0x00002608   0x00002608   0x00000024   Code   RO         1221    i.nrf_gpio_cfg      nrfx_uart.o
+    0x0000262c   0x0000262c   0x00000024   Code   RO         1404    i.nrf_gpio_cfg      nrfx_uarte.o
+    0x00002650   0x00002650   0x00000012   Code   RO         1222    i.nrf_gpio_cfg_default  nrfx_uart.o
+    0x00002662   0x00002662   0x00000012   Code   RO         1405    i.nrf_gpio_cfg_default  nrfx_uarte.o
+    0x00002674   0x00002674   0x00000012   Code   RO         1223    i.nrf_gpio_cfg_input  nrfx_uart.o
+    0x00002686   0x00002686   0x00000012   Code   RO         1406    i.nrf_gpio_cfg_input  nrfx_uarte.o
+    0x00002698   0x00002698   0x00000014   Code   RO         1092    i.nrf_gpio_cfg_output  nrfx_spim.o
+    0x000026ac   0x000026ac   0x00000014   Code   RO         1224    i.nrf_gpio_cfg_output  nrfx_uart.o
+    0x000026c0   0x000026c0   0x00000014   Code   RO         1407    i.nrf_gpio_cfg_output  nrfx_uarte.o
+    0x000026d4   0x000026d4   0x00000022   Code   RO          711    i.nrf_gpio_cfg_sense_set  nrfx_gpiote.o
+    0x000026f6   0x000026f6   0x00000002   PAD
+    0x000026f8   0x000026f8   0x0000002c   Code   RO          712    i.nrf_gpio_latches_read_and_clear  nrfx_gpiote.o
+    0x00002724   0x00002724   0x0000000e   Code   RO         1093    i.nrf_gpio_pin_clear  nrfx_spim.o
+    0x00002732   0x00002732   0x0000000e   Code   RO         1094    i.nrf_gpio_pin_set  nrfx_spim.o
+    0x00002740   0x00002740   0x00000016   Code   RO          259    i.nrf_gpio_pin_write  boards.o
+    0x00002756   0x00002756   0x00000002   PAD
+    0x00002758   0x00002758   0x00000014   Code   RO          714    i.nrf_gpiote_event_clear  nrfx_gpiote.o
+    0x0000276c   0x0000276c   0x00000010   Code   RO          715    i.nrf_gpiote_event_is_set  nrfx_gpiote.o
+    0x0000277c   0x0000277c   0x0000005c   Code   RO         2959    i.nrf_log_backend_add  nrf_log_frontend.o
+    0x000027d8   0x000027d8   0x000000c8   Code   RO         2804    i.nrf_log_backend_serial_put  nrf_log_backend_serial.o
+    0x000028a0   0x000028a0   0x00000002   Code   RO         2844    i.nrf_log_backend_uart_flush  nrf_log_backend_uart.o
+    0x000028a2   0x000028a2   0x00000006   Code   RO         2845    i.nrf_log_backend_uart_init  nrf_log_backend_uart.o
+    0x000028a8   0x000028a8   0x0000002c   Code   RO         2846    i.nrf_log_backend_uart_panic_set  nrf_log_backend_uart.o
+    0x000028d4   0x000028d4   0x00000018   Code   RO         2847    i.nrf_log_backend_uart_put  nrf_log_backend_uart.o
+    0x000028ec   0x000028ec   0x00000030   Code   RO         2961    i.nrf_log_color_id_get  nrf_log_frontend.o
+    0x0000291c   0x0000291c   0x0000001c   Code   RO         2917    i.nrf_log_default_backends_init  nrf_log_default_backends.o
+    0x00002938   0x00002938   0x00000234   Code   RO         2962    i.nrf_log_frontend_dequeue  nrf_log_frontend.o
+    0x00002b6c   0x00002b6c   0x00000008   Code   RO         2964    i.nrf_log_frontend_std_0  nrf_log_frontend.o
+    0x00002b74   0x00002b74   0x0000000e   Code   RO         2965    i.nrf_log_frontend_std_1  nrf_log_frontend.o
+    0x00002b82   0x00002b82   0x00000010   Code   RO         2966    i.nrf_log_frontend_std_2  nrf_log_frontend.o
+    0x00002b92   0x00002b92   0x00000012   Code   RO         2967    i.nrf_log_frontend_std_3  nrf_log_frontend.o
+    0x00002ba4   0x00002ba4   0x00000014   Code   RO         2968    i.nrf_log_frontend_std_4  nrf_log_frontend.o
+    0x00002bb8   0x00002bb8   0x000000b0   Code   RO         3140    i.nrf_log_hexdump_entry_process  nrf_log_str_formatter.o
+    0x00002c68   0x00002c68   0x00000028   Code   RO         2971    i.nrf_log_init      nrf_log_frontend.o
+    0x00002c90   0x00002c90   0x00000014   Code   RO         2972    i.nrf_log_module_cnt_get  nrf_log_frontend.o
+    0x00002ca4   0x00002ca4   0x0000001c   Code   RO         2975    i.nrf_log_module_name_get  nrf_log_frontend.o
+    0x00002cc0   0x00002cc0   0x00000028   Code   RO         2976    i.nrf_log_panic     nrf_log_frontend.o
+    0x00002ce8   0x00002ce8   0x000000b6   Code   RO         3141    i.nrf_log_std_entry_process  nrf_log_str_formatter.o
+    0x00002d9e   0x00002d9e   0x00000060   Code   RO         2557    i.nrf_memobj_alloc  nrf_memobj.o
+    0x00002dfe   0x00002dfe   0x00000032   Code   RO         2558    i.nrf_memobj_free   nrf_memobj.o
+    0x00002e30   0x00002e30   0x00000008   Code   RO         2559    i.nrf_memobj_get    nrf_memobj.o
+    0x00002e38   0x00002e38   0x00000004   Code   RO         2560    i.nrf_memobj_pool_init  nrf_memobj.o
+    0x00002e3c   0x00002e3c   0x0000001e   Code   RO         2561    i.nrf_memobj_put    nrf_memobj.o
+    0x00002e5a   0x00002e5a   0x00000010   Code   RO         2562    i.nrf_memobj_read   nrf_memobj.o
+    0x00002e6a   0x00002e6a   0x00000010   Code   RO         2563    i.nrf_memobj_write  nrf_memobj.o
+    0x00002e7a   0x00002e7a   0x0000001c   Code   RO         2639    i.nrf_ringbuf_init  nrf_ringbuf.o
+    0x00002e96   0x00002e96   0x0000000a   Code   RO         1095    i.nrf_spim_event_check  nrfx_spim.o
+    0x00002ea0   0x00002ea0   0x0000000a   Code   RO         1225    i.nrf_uart_event_check  nrfx_uart.o
+    0x00002eaa   0x00002eaa   0x0000000c   Code   RO         1226    i.nrf_uart_event_clear  nrfx_uart.o
+    0x00002eb6   0x00002eb6   0x0000000c   Code   RO         1227    i.nrf_uart_int_enable_check  nrfx_uart.o
+    0x00002ec2   0x00002ec2   0x0000000a   Code   RO         1408    i.nrf_uarte_event_check  nrfx_uarte.o
+    0x00002ecc   0x00002ecc   0x0000000c   Code   RO         1409    i.nrf_uarte_event_clear  nrfx_uarte.o
+    0x00002ed8   0x00002ed8   0x00000010   Code   RO         1096    i.nrfx_is_in_ram    nrfx_spim.o
+    0x00002ee8   0x00002ee8   0x00000010   Code   RO         1410    i.nrfx_is_in_ram    nrfx_uarte.o
+    0x00002ef8   0x00002ef8   0x00000030   Code   RO         1019    i.nrfx_prs_acquire  nrfx_prs.o
+    0x00002f28   0x00002f28   0x00000012   Code   RO         1020    i.nrfx_prs_release  nrfx_prs.o
+    0x00002f3a   0x00002f3a   0x00000002   PAD
+    0x00002f3c   0x00002f3c   0x0000016c   Code   RO         1099    i.nrfx_spim_init    nrfx_spim.o
+    0x000030a8   0x000030a8   0x00000064   Code   RO         1102    i.nrfx_spim_xfer    nrfx_spim.o
+    0x0000310c   0x0000310c   0x00000010   Code   RO         1228    i.nrfx_uart_0_irq_handler  nrfx_uart.o
+    0x0000311c   0x0000311c   0x000000d4   Code   RO         1230    i.nrfx_uart_init    nrfx_uart.o
+    0x000031f0   0x000031f0   0x000000a8   Code   RO         1236    i.nrfx_uart_tx      nrfx_uart.o
+    0x00003298   0x00003298   0x00000020   Code   RO         1238    i.nrfx_uart_tx_in_progress  nrfx_uart.o
+    0x000032b8   0x000032b8   0x000000c0   Code   RO         1239    i.nrfx_uart_uninit  nrfx_uart.o
+    0x00003378   0x00003378   0x00000010   Code   RO         1411    i.nrfx_uarte_0_irq_handler  nrfx_uarte.o
+    0x00003388   0x00003388   0x0000006c   Code   RO         1413    i.nrfx_uarte_init   nrfx_uarte.o
+    0x000033f4   0x000033f4   0x000000ac   Code   RO         1417    i.nrfx_uarte_tx     nrfx_uarte.o
+    0x000034a0   0x000034a0   0x0000001c   Code   RO         1419    i.nrfx_uarte_tx_in_progress  nrfx_uarte.o
+    0x000034bc   0x000034bc   0x00000108   Code   RO         1420    i.nrfx_uarte_uninit  nrfx_uarte.o
+    0x000035c4   0x000035c4   0x000000b4   Code   RO          748    i.port_event_handle  nrfx_gpiote.o
+    0x00003678   0x00003678   0x00000010   Code   RO          749    i.port_handler_polarity_get  nrfx_gpiote.o
+    0x00003688   0x00003688   0x0000003c   Code   RO         3143    i.postfix_process   nrf_log_str_formatter.o
+    0x000036c4   0x000036c4   0x00000098   Code   RO         3144    i.prefix_process    nrf_log_str_formatter.o
+    0x0000375c   0x0000375c   0x00000018   Code   RO         1021    i.prs_box_get       nrfx_prs.o
+    0x00003774   0x00003774   0x00000032   Code   RO         1240    i.rx_byte           nrfx_uart.o
+    0x000037a6   0x000037a6   0x00000016   Code   RO         1241    i.rx_done_event     nrfx_uart.o
+    0x000037bc   0x000037bc   0x00000016   Code   RO         1421    i.rx_done_event     nrfx_uarte.o
+    0x000037d2   0x000037d2   0x00000002   PAD
+    0x000037d4   0x000037d4   0x00000040   Code   RO         2848    i.serial_tx         nrf_log_backend_uart.o
+    0x00003814   0x00003814   0x0000000c   Code   RO         3692    i.spi_event_handler  nrf5_ade9153a.o
+    0x00003820   0x00003820   0x00000050   Code   RO         3693    i.spi_read16        nrf5_ade9153a.o
+    0x00003870   0x00003870   0x00000064   Code   RO         3694    i.spi_read32        nrf5_ade9153a.o
+    0x000038d4   0x000038d4   0x00000050   Code   RO         3695    i.spi_write16       nrf5_ade9153a.o
+    0x00003924   0x00003924   0x00000060   Code   RO         3696    i.spi_write32       nrf5_ade9153a.o
+    0x00003984   0x00003984   0x00000038   Code   RO          479    i.spim_evt_handler  nrf_drv_spi.o
+    0x000039bc   0x000039bc   0x000000bc   Code   RO         1103    i.spim_xfer         nrfx_spim.o
+    0x00003a78   0x00003a78   0x00000094   Code   RO         2978    i.std_n             nrf_log_frontend.o
+    0x00003b0c   0x00003b0c   0x00000020   Code   RO         1243    i.tx_byte           nrfx_uart.o
+    0x00003b2c   0x00003b2c   0x0000001a   Code   RO         1244    i.tx_done_event     nrfx_uart.o
+    0x00003b46   0x00003b46   0x0000001a   Code   RO         1422    i.tx_done_event     nrfx_uarte.o
+    0x00003b60   0x00003b60   0x00000030   Code   RO          514    i.uart_evt_handler  nrf_drv_uart.o
+    0x00003b90   0x00003b90   0x0000000c   Code   RO         2849    i.uart_evt_handler  nrf_log_backend_uart.o
+    0x00003b9c   0x00003b9c   0x00000050   Code   RO         2850    i.uart_init         nrf_log_backend_uart.o
+    0x00003bec   0x00003bec   0x0000012a   Code   RO         1245    i.uart_irq_handler  nrfx_uart.o
+    0x00003d16   0x00003d16   0x00000002   PAD
+    0x00003d18   0x00003d18   0x00000030   Code   RO          515    i.uarte_evt_handler  nrf_drv_uart.o
+    0x00003d48   0x00003d48   0x00000112   Code   RO         1423    i.uarte_irq_handler  nrfx_uarte.o
+    0x00003e5a   0x00003e5a   0x00000002   PAD
+    0x00003e5c   0x00003e5c   0x000000b4   Code   RO         2519    i.unsigned_print    nrf_fprintf_format.o
+    0x00003f10   0x00003f10   0x00000006   Data   RO            7    .constdata          main.o
+    0x00003f16   0x00003f16   0x00000008   Data   RO          260    .constdata          boards.o
+    0x00003f1e   0x00003f1e   0x00000002   PAD
+    0x00003f20   0x00003f20   0x00000010   Data   RO          481    .constdata          nrf_drv_spi.o
+    0x00003f30   0x00003f30   0x00000004   Data   RO          751    .constdata          nrfx_gpiote.o
+    0x00003f34   0x00003f34   0x00000004   Data   RO         1106    .constdata          nrfx_spim.o
+    0x00003f38   0x00003f38   0x00000004   Data   RO         1248    .constdata          nrfx_uart.o
+    0x00003f3c   0x00003f3c   0x00000004   Data   RO         1426    .constdata          nrfx_uarte.o
+    0x00003f40   0x00003f40   0x00000010   Data   RO         2520    .constdata          nrf_fprintf_format.o
+    0x00003f50   0x00003f50   0x0000000c   Data   RO         2852    .constdata          nrf_log_backend_uart.o
+    0x00003f5c   0x00003f5c   0x00000020   Data   RO         2853    .constdata          nrf_log_backend_uart.o
+    0x00003f7c   0x00003f7c   0x0000000c   Data   RO         2983    .constdata          nrf_log_frontend.o
+    0x00003f88   0x00003f88   0x00000008   PAD
+    0x00003f90   0x00003f90   0x00000028   Data   RO         3697    .constdata          nrf5_ade9153a.o
+    0x00003fb8   0x00003fb8   0x00000081   Data   RO         3930    .constdata          mc_w.l(ctype_o.o)
+    0x00004039   0x00004039   0x00000003   PAD
+    0x0000403c   0x0000403c   0x00000004   Data   RO         3931    .constdata          mc_w.l(ctype_o.o)
+    0x00004040   0x00004040   0x00000066   Data   RO         3145    .conststring        nrf_log_str_formatter.o
+    0x000040a6   0x000040a6   0x00000002   PAD
+    0x000040a8   0x000040a8   0x00000007   Data   RO          755    .conststrlit        nrfx_gpiote.o
+    0x000040af   0x000040af   0x00000001   PAD
+    0x000040b0   0x000040b0   0x00000004   Data   RO         1023    .conststrlit        nrfx_prs.o
+    0x000040b4   0x000040b4   0x00000005   Data   RO         1109    .conststrlit        nrfx_spim.o
+    0x000040b9   0x000040b9   0x00000003   PAD
+    0x000040bc   0x000040bc   0x00000005   Data   RO         1251    .conststrlit        nrfx_uart.o
     0x000040c1   0x000040c1   0x00000003   PAD
-    0x000040c4   0x000040c4   0x00000004   Data   RO         2984    .conststrlit        nrf_log_frontend.o
-    0x000040c8   0x000040c8   0x00000020   Data   RO         4010    Region$$Table       anon$$obj.o
-    0x000040e8   0x000040e8   0x00000010   Data   RO         2920    log_backends        nrf_log_default_backends.o
-    0x000040f8   0x000040f8   0x00000008   Data   RO          756    log_const_data      nrfx_gpiote.o
-    0x00004100   0x00004100   0x00000008   Data   RO         1025    log_const_data      nrfx_prs.o
-    0x00004108   0x00004108   0x00000008   Data   RO         1110    log_const_data      nrfx_spim.o
-    0x00004110   0x00004110   0x00000008   Data   RO         1252    log_const_data      nrfx_uart.o
-    0x00004118   0x00004118   0x00000008   Data   RO         1430    log_const_data      nrfx_uarte.o
-    0x00004120   0x00004120   0x00000008   Data   RO         1575    log_const_data      app_button.o
-    0x00004128   0x00004128   0x00000008   Data   RO         1858    log_const_data      app_timer2.o
-    0x00004130   0x00004130   0x00000008   Data   RO         2703    log_const_data      nrf_sortlist.o
-    0x00004138   0x00004138   0x00000008   Data   RO         2988    log_const_data      nrf_log_frontend.o
-    0x00004140   0x00004140   0x00000014   Data   RO         2989    nrf_balloc          nrf_log_frontend.o
+    0x000040c4   0x000040c4   0x00000006   Data   RO         1429    .conststrlit        nrfx_uarte.o
+    0x000040ca   0x000040ca   0x00000002   PAD
+    0x000040cc   0x000040cc   0x0000000b   Data   RO         1573    .conststrlit        app_button.o
+    0x000040d7   0x000040d7   0x00000001   PAD
+    0x000040d8   0x000040d8   0x0000000a   Data   RO         1855    .conststrlit        app_timer2.o
+    0x000040e2   0x000040e2   0x00000002   PAD
+    0x000040e4   0x000040e4   0x00000009   Data   RO         2702    .conststrlit        nrf_sortlist.o
+    0x000040ed   0x000040ed   0x00000003   PAD
+    0x000040f0   0x000040f0   0x00000011   Data   RO         2918    .conststrlit        nrf_log_default_backends.o
+    0x00004101   0x00004101   0x00000003   PAD
+    0x00004104   0x00004104   0x00000004   Data   RO         2984    .conststrlit        nrf_log_frontend.o
+    0x00004108   0x00004108   0x00000020   Data   RO         4010    Region$$Table       anon$$obj.o
+    0x00004128   0x00004128   0x00000010   Data   RO         2920    log_backends        nrf_log_default_backends.o
+    0x00004138   0x00004138   0x00000008   Data   RO          756    log_const_data      nrfx_gpiote.o
+    0x00004140   0x00004140   0x00000008   Data   RO         1025    log_const_data      nrfx_prs.o
+    0x00004148   0x00004148   0x00000008   Data   RO         1110    log_const_data      nrfx_spim.o
+    0x00004150   0x00004150   0x00000008   Data   RO         1252    log_const_data      nrfx_uart.o
+    0x00004158   0x00004158   0x00000008   Data   RO         1430    log_const_data      nrfx_uarte.o
+    0x00004160   0x00004160   0x00000008   Data   RO         1575    log_const_data      app_button.o
+    0x00004168   0x00004168   0x00000008   Data   RO         1858    log_const_data      app_timer2.o
+    0x00004170   0x00004170   0x00000008   Data   RO         2703    log_const_data      nrf_sortlist.o
+    0x00004178   0x00004178   0x00000008   Data   RO         2988    log_const_data      nrf_log_frontend.o
+    0x00004180   0x00004180   0x00000014   Data   RO         2989    nrf_balloc          nrf_log_frontend.o
 
 
-    Execution Region RW_IRAM1 (Exec base: 0x20000000, Load base: 0x00004154, Size: 0x000027b0, Max: 0x00010000, ABSOLUTE)
+    Execution Region RW_IRAM1 (Exec base: 0x20000000, Load base: 0x00004194, Size: 0x000027b0, Max: 0x00010000, ABSOLUTE)
 
     Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
 
-    0x20000000   0x00004154   0x00000008   Data   RW            8    .data               main.o
-    0x20000008   0x0000415c   0x0000000c   Data   RW          516    .data               nrf_drv_uart.o
-    0x20000014   0x00004168   0x00000008   Data   RW         1024    .data               nrfx_prs.o
-    0x2000001c   0x00004170   0x00000004   Data   RW         1982    .data               app_util_platform.o
-    0x20000020   0x00004174   0x0000000c   Data   RW         2062    .data               drv_rtc.o
-    0x2000002c   0x00004180   0x00000018   Data   RW         2854    .data               nrf_log_backend_uart.o
-    0x20000044   0x00004198   0x00000008   Data   RW         2919    .data               nrf_log_default_backends.o
-    0x2000004c   0x000041a0   0x00000004   Data   RW         2985    .data               nrf_log_frontend.o
-    0x20000050   0x000041a4   0x00000008   Data   RW         2986    .data               nrf_log_frontend.o
-    0x20000058   0x000041ac   0x00000008   Data   RW         2987    .data               nrf_log_frontend.o
-    0x20000060   0x000041b4   0x00000040   Data   RW         3146    .data               nrf_log_str_formatter.o
-    0x200000a0   0x000041f4   0x00000002   Data   RW         3698    .data               nrf5_ade9153a.o
-    0x200000a2   0x000041f6   0x00000002   PAD
-    0x200000a4   0x000041f8   0x00000004   Data   RW         3871    .data               system_nrf52.o
+    0x20000000   0x00004194   0x00000008   Data   RW            8    .data               main.o
+    0x20000008   0x0000419c   0x0000000c   Data   RW          516    .data               nrf_drv_uart.o
+    0x20000014   0x000041a8   0x00000008   Data   RW         1024    .data               nrfx_prs.o
+    0x2000001c   0x000041b0   0x00000004   Data   RW         1982    .data               app_util_platform.o
+    0x20000020   0x000041b4   0x0000000c   Data   RW         2062    .data               drv_rtc.o
+    0x2000002c   0x000041c0   0x00000018   Data   RW         2854    .data               nrf_log_backend_uart.o
+    0x20000044   0x000041d8   0x00000008   Data   RW         2919    .data               nrf_log_default_backends.o
+    0x2000004c   0x000041e0   0x00000004   Data   RW         2985    .data               nrf_log_frontend.o
+    0x20000050   0x000041e4   0x00000008   Data   RW         2986    .data               nrf_log_frontend.o
+    0x20000058   0x000041ec   0x00000008   Data   RW         2987    .data               nrf_log_frontend.o
+    0x20000060   0x000041f4   0x00000040   Data   RW         3146    .data               nrf_log_str_formatter.o
+    0x200000a0   0x00004234   0x00000002   Data   RW         3698    .data               nrf5_ade9153a.o
+    0x200000a2   0x00004236   0x00000002   PAD
+    0x200000a4   0x00004238   0x00000004   Data   RW         3871    .data               system_nrf52.o
     0x200000a8        -       0x00000064   Zero   RW            6    .bss                main.o
     0x2000010c        -       0x00000018   Zero   RW          480    .bss                nrf_drv_spi.o
     0x20000124        -       0x0000005c   Zero   RW          750    .bss                nrfx_gpiote.o
@@ -2435,7 +2435,7 @@ Memory Map of the image
     0x200002f4        -       0x00000080   Zero   RW         2980    .bss                nrf_log_frontend.o
     0x20000374        -       0x00000018   Zero   RW         2981    .bss                nrf_log_frontend.o
     0x2000038c        -       0x00000420   Zero   RW         2982    .bss                nrf_log_frontend.o
-    0x200007ac   0x000041fc   0x00000004   PAD
+    0x200007ac   0x0000423c   0x00000004   PAD
     0x200007b0        -       0x00002000   Zero   RW         3859    STACK               arm_startup_nrf52.o
 
 
@@ -2455,7 +2455,7 @@ Image component sizes
        176         10          8          0          0       8629   boards.o
          0          0          0          0          0       3304   bsp.o
         16          4          0         12          0       4953   drv_rtc.o
-      2364        770          6          8        100      70947   main.o
+      2428        814          6          8        100      70967   main.o
       2142        412         40          2          0      36787   nrf5_ade9153a.o
        294          0          0          0          0       7919   nrf_atomic.o
        152          0          0          0          0       3580   nrf_balloc.o
@@ -2479,7 +2479,7 @@ Image component sizes
        808         72          0          4          0      13699   system_nrf52.o
 
     ----------------------------------------------------------------------
-     14480       1826       1020        168       9992     454000   Object Totals
+     14544       1870       1020        168       9992     454020   Object Totals
          0          0         32          0          0          0   (incl. Generated)
         26          0         30          2          4          0   (incl. Padding)
 
@@ -2532,15 +2532,15 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
 
-     15568       1846       1156        168       9992     439748   Grand Totals
-     15568       1846       1156        168       9992     439748   ELF Image Totals
-     15568       1846       1156        168          0          0   ROM Totals
+     15632       1890       1156        168       9992     439768   Grand Totals
+     15632       1890       1156        168       9992     439768   ELF Image Totals
+     15632       1890       1156        168          0          0   ROM Totals
 
 ==============================================================================
 
-    Total RO  Size (Code + RO Data)                16724 (  16.33kB)
+    Total RO  Size (Code + RO Data)                16788 (  16.39kB)
     Total RW  Size (RW Data + ZI Data)             10160 (   9.92kB)
-    Total ROM Size (Code + RO Data + RW Data)      16892 (  16.50kB)
+    Total ROM Size (Code + RO Data + RW Data)      16956 (  16.56kB)
 
 ==============================================================================
 
