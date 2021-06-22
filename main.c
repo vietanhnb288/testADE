@@ -191,16 +191,14 @@ int main(void)
     /* Read mSure autocalibration */
     ADE9153_acal_result(&pACALRegs);
 		
-//		uint32_t a = spi_read32(REG_AIGAIN);
-//		NRF_LOG_INFO("%x",a);
+		uint32_t a = spi_read32(REG_AIGAIN);
+		NRF_LOG_INFO("Test doc gia tri thanh ghi REG_AIGAIN : %x",a);
 
     /* Config AIGAIN & AVGAIN */
     ADE9153_AIGainCFG(pRMSRegs.targetAICC, pACALRegs.mSureAICCValue);
     ADE9153_AVGainCFG(pRMSRegs.targetAVCC, pACALRegs.mSureAVCCValue);
-
-    NRF_LOG_FLUSH();
-    nrf_delay_ms(500);
 		
+		 
 		ADE9153_read_RMSRegs(&pRMSRegs);
     ADE9153_read_PowRegs(&pPowRegs);
     ADE9153_read_PQRegs(&pPQRegs);
@@ -217,18 +215,9 @@ int main(void)
             NRF_LOG_INFO("periodReg: %x and freqValue: " NRF_LOG_FLOAT_MARKER, pPQRegs.periodReg, NRF_LOG_FLOAT(pPQRegs.freqValue));
             NRF_LOG_INFO("angleAV_AIReg: %x and angleAV_AIValue: " NRF_LOG_FLOAT_MARKER "\n", pPQRegs.angleAV_AIReg, NRF_LOG_FLOAT(pPQRegs.angleAV_AIValue));
 
+    NRF_LOG_FLUSH();
+    nrf_delay_ms(5000);
 			
 		
-    // Enter main loop.
-    
-        //        idle_state_handle();
-    
-//    while (1)
-//    {
-//			uint32_t a = spi_read32(REG_AIGAIN);
-//			NRF_LOG_INFO("%x",a);
-//			
-//			nrf_delay_ms(2000);
-//			
-//    }
+   
 }
