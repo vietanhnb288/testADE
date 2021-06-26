@@ -54,7 +54,7 @@
 #include "nrf5_ade9153a.h"
 
 #define reset_pin 4
-
+#define ctrl_pin 18
 //#define SPI_INSTANCE  0 /**< SPI instance index. */
 //static const nrf_drv_spi_t spi = NRF_DRV_SPI_INSTANCE(SPI_INSTANCE);  /**< SPI instance. */
 //static volatile bool spi_xfer_done;  /**< Flag used to indicate that SPI instance completed the transfer. */
@@ -114,7 +114,7 @@ int main(void)
     NRF_LOG_INFO("targetPowCC: " NRF_LOG_FLOAT_MARKER, NRF_LOG_FLOAT(pPowRegs.targetPowCC));
 
     NRF_LOG_FLUSH();
-		
+		nrf_gpio_pin_set(ctrl_pin);
 		ADE9153_reset(reset_pin);
 	
 		init_spiADE9153();
@@ -197,7 +197,8 @@ int main(void)
     /* Config AIGAIN & AVGAIN */
     ADE9153_AIGainCFG(pRMSRegs.targetAICC, pACALRegs.mSureAICCValue);
     ADE9153_AVGainCFG(pRMSRegs.targetAVCC, pACALRegs.mSureAVCCValue);
-		
+		while (1)
+		{
 		 
 		ADE9153_read_RMSRegs(&pRMSRegs);
     ADE9153_read_PowRegs(&pPowRegs);
@@ -216,8 +217,9 @@ int main(void)
             NRF_LOG_INFO("angleAV_AIReg: %x and angleAV_AIValue: " NRF_LOG_FLOAT_MARKER "\n", pPQRegs.angleAV_AIReg, NRF_LOG_FLOAT(pPQRegs.angleAV_AIValue));
 
     NRF_LOG_FLUSH();
+		bsp_board_led_invert(BSP_BOARD_LED_0);
     nrf_delay_ms(5000);
 			
-		
+		}
    
 }
